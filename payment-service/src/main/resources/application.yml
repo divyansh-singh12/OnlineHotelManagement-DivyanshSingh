@@ -1,2 +1,5 @@
-spring.application.name=payment-service
-server.port=8085
+spring:
+    application:
+        name: payment-service
+server:
+    port: 8085

@@ -1,2 +1,5 @@
-spring.application.name=manage-department-service
-server.port=8081
+spring:
+    application:
+            name: manage-department-service
+server:
+     port: 8081

@@ -1,2 +1,5 @@
-spring.application.name=manage-inventory-service
-server.port=8082
+spring:
+    application:
+            name: manage-inventory-service
+server:
+    port: 8082

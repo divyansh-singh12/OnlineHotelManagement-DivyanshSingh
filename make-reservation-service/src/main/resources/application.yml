@@ -1,2 +1,5 @@
-spring.application.name=make-reservation-service
-server.port=8086
+spring:
+    application:
+            name: make-reservation-service
+server:
+    port: 8086
