@@ -1,5 +1,14 @@
 spring:
     application:
             name: manage-guest-service
+    datasource:
+     driverClassName: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/guestdb
+     username: divyansh
+     password: 1234
+    jpa:
+     hibernate.ddl-auto: update
+     generate-ddl: true
+     show-sql: true
 server:
     port: 8088

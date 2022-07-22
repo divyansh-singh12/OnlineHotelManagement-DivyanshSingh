@@ -9,9 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @EnableEurekaClient
-@Configuration
 @ComponentScan
-@EnableAutoConfiguration
 public class ManageRoomServiceApplication {
 
 	public static void main(String[] args) {
