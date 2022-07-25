@@ -1,6 +1,7 @@
 package com.capgemini.manageroomservice.entity;
 
 import java.sql.Time;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -32,8 +33,16 @@ public class Room {
 	private int first_night_rate;
 	@Column
 	private int extension_rate;
+	@Column
+	private Date bookedtill;
 	
 	
+	public Date getBookedtill() {
+		return bookedtill;
+	}
+	public void setBookedtill(Date bookedtill) {
+		this.bookedtill = bookedtill;
+	}
 	public Time getCheck_in_time() {
 		return check_in_time;
 	}

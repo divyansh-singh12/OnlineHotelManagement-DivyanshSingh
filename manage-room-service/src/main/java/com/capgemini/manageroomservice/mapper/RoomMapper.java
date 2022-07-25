@@ -18,6 +18,7 @@ public class RoomMapper {
 		roomEntity.setRoom_rate(room.getRoom_rate());
 		roomEntity.setFirst_night_rate(room.getFirst_night_rate());
 		roomEntity.setExtension_rate(room.getExtension_rate());
+		roomEntity.setBookedtill(room.getBookedtill());
 		return roomEntity;
 	}
 	 

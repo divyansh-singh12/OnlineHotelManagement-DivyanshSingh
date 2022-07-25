@@ -1,5 +1,20 @@
-spring:
-    application:
-        name: payment-service
 server:
-    port: 8085
+  port: 8085
+spring:
+  application:
+    name: payment-service
+paytm.payment:
+  sandbox:
+    merchantId: sviaeV91055242769175
+    merchantKey: llaDwHcg4Nc4xLIH
+    channelId: WEB
+    website: WEBSTAGING
+    industryTypeId: Retail
+    paytmUrl:  https://securegw-stage.paytm.in/order/process
+    callbackUrl: http://localhost:9090/pgresponse
+    details:
+      MID: ${paytm.payment.sandbox.merchantid}
+      CHANNEL_ID: ${paytm.payment.sandbox.channelid}
+      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.industrytypeid}
+      WEBSITE: ${paytm.payment.sandbox.website}
+      CALLBACK_URL: ${paytm.payment.sandbox.callbackUrl}

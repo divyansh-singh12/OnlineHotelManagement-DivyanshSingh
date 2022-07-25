@@ -1,6 +1,7 @@
 package com.capgemini.manageroomservice.model;
 
 import java.sql.Time;
+import java.util.Date;
 
 public class RoomModel {
 	private int room_no;
@@ -12,6 +13,7 @@ public class RoomModel {
 	private int room_rate;
 	private int first_night_rate;
 	private int extension_rate;
+	private Date bookedtill;
 	
 	public RoomModel() {
 		
@@ -46,6 +48,16 @@ public class RoomModel {
 		this.type = type;
 		this.capacity = capacity;
 		this.status = status;
+	}
+
+
+	public Date getBookedtill() {
+		return bookedtill;
+	}
+
+
+	public void setBookedtill(Date bookedtill) {
+		this.bookedtill = bookedtill;
 	}
 
 

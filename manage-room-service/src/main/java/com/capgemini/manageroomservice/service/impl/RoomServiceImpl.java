@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import com.capgemini.manageroomservice.entity.Room;
 import com.capgemini.manageroomservice.mapper.RoomMapper;
+import com.capgemini.manageroomservice.model.BookData;
 import com.capgemini.manageroomservice.model.RoomModel;
 import com.capgemini.manageroomservice.repository.RoomRepository;
 import com.capgemini.manageroomservice.service.RoomService;
@@ -43,7 +44,7 @@ public class RoomServiceImpl implements RoomService {
 	
 	public String setRatesService(RoomModel room) {
 		try {
-		List<Room> roomList = roomRepository.findByTypeAndCapacity(room.getType(), room.getCapacity());
+		List<Room> roomList = roomRepository.findAllByTypeAndCapacity(room.getType(), room.getCapacity());
 		for (Room demoroom : roomList) {
 			demoroom.setCheck_in_time(room.getCheck_in_time());
 			demoroom.setCheck_out_time(room.getCheck_out_time());
@@ -57,5 +58,11 @@ public class RoomServiceImpl implements RoomService {
 			e.printStackTrace();
 		}
 		return "can't set rates";
+	}
+	public String bookedRoom(BookData bookData) {
+		Room roomEntity =roomRepository.findById(bookData.getRoomNo());
+		roomEntity.setBookedtill(bookData.getBookedTill());
+		roomEntity=roomRepository.save(roomEntity);
+		return "Room Booked Successfully";
 	}
 }
