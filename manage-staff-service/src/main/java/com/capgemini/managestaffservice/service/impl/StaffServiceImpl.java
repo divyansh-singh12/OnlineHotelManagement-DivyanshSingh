@@ -9,7 +9,9 @@ import org.springframework.stereotype.Component;
 import com.capgemini.managestaffservice.entity.Staff;
 import com.capgemini.managestaffservice.mapper.AddressMapper;
 import com.capgemini.managestaffservice.mapper.StaffMapper;
+import com.capgemini.managestaffservice.model.StaffList;
 import com.capgemini.managestaffservice.model.StaffModel;
+import com.capgemini.managestaffservice.model.StaffReportModel;
 import com.capgemini.managestaffservice.repository.StaffRepository;
 import com.capgemini.managestaffservice.service.StaffService;
 
@@ -61,4 +63,22 @@ public class StaffServiceImpl implements StaffService {
 		}
 		return modelList;
 	}
+	
+	public StaffList generateReport() {
+		List<Staff> demoList = staffRepository.findAll();
+		List<StaffReportModel> reportModelList = new ArrayList<StaffReportModel>();
+		for(Staff staffins : demoList) {
+			StaffReportModel reportModel = new StaffReportModel();
+			reportModel.setCode(staffins.getCode());
+			reportModel.setFirstname(staffins.getFirstname());
+			reportModel.setLastname(staffins.getLastname());
+			reportModel.setSalary(staffins.getSalary());
+			reportModel.setJoinedon(staffins.getJoinedon());
+			reportModelList.add(reportModel);
+		}
+		StaffList modelList = new StaffList();
+		modelList.setStaffReportList(reportModelList);
+		return modelList;
+	}
+
 }

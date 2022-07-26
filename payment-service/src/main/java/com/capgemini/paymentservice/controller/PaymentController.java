@@ -3,9 +3,7 @@ package com.capgemini.paymentservice.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import java.util.Map;
 import java.util.TreeMap;
-
 import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
@@ -13,7 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-
 import com.capgemini.paymentservice.entity.PaytmDetails;
 import com.paytm.pg.merchant.*;
 
@@ -94,7 +91,5 @@ public class PaymentController {
 	private String getCheckSum(TreeMap<String, String> parameters) throws Exception {
 		return PaytmChecksum.generateSignature(parameters, paytmDetails.getMerchantKey());
 	}
-	
-	
 	
 }

@@ -1,5 +1,12 @@
+server:
+      port: 8084
 spring:
      application:
             name: retrieve-report-service
-server:
-      port: 8084
+     data:
+             mongodb:
+                    host: localhost
+                    port: 27017
+                    database: reportdb
+     main:
+              allow-circular-references: true
