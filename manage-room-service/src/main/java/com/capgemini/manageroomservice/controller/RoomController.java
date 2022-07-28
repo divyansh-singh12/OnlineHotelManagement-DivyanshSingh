@@ -38,9 +38,9 @@ public class RoomController {
 		return ResponseEntity.ok(roomService.updateRoomService(room));
 	}
 	
-	@DeleteMapping(value = "/deleteroom/{room_no}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<String> deleteRoom(@PathVariable int room_no) {
-		return ResponseEntity.ok(roomService.deleteRoomService(room_no));
+	@DeleteMapping(value = "/deleteroom/{roomno}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<String> deleteRoom(@PathVariable int roomno) {
+		return ResponseEntity.ok(roomService.deleteRoomService(roomno));
 	}
 	
 	@PutMapping(value="/setrates", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
@@ -51,5 +51,10 @@ public class RoomController {
 		public ResponseEntity<String> bookedRoom(@RequestBody BookData bookData){
 			return ResponseEntity.ok(roomService.bookedRoom(bookData));
 		}
+	
+	@GetMapping(value = "/viewroom/{roomno}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<RoomModel> viewRoom(@PathVariable int roomno) {
+			return ResponseEntity.ok(roomService.viewroom(roomno));
+	}
 	
 }

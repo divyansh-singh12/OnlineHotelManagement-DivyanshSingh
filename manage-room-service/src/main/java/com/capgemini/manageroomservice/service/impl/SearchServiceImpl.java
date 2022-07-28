@@ -23,7 +23,7 @@ public class SearchServiceImpl implements SearchService {
 		List<Room> roomlist=roomRepository.findAllByTypeAndCapacity(searchQuery.getType(),searchQuery.getNo_of_guest());
 		List<RoomModel> modelList= new ArrayList<RoomModel>();
 		for(Room room: roomlist) {
-			if(room.getStatus().equalsIgnoreCase("vacant") && searchQuery.getCheck_in().after(room.getBookedtill())) {
+			if(room.getStatus().equalsIgnoreCase("available") && searchQuery.getCheck_in().after(room.getBookedtill())) {
 			modelList.add(roomMapper.mapEntityToDto(room));
 			}
 		}

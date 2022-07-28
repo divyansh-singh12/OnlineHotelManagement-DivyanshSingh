@@ -14,11 +14,11 @@ public interface RoomRepository extends JpaRepository<Room, Integer> {
 	
 	@SuppressWarnings("unchecked")
 	public Room save(Room room);
-	
-	public void deleteById(int id);
-	
+	public void deleteById(int roomno);
+	public void delete (Room room);
 	public Room findById(int id);
 	
 	public List<Room> findAllByTypeAndCapacity(String type, int capacity);
 	public List<Room> findByStatus(String status);
+	public Room findByRoomno (int roomno);
 }

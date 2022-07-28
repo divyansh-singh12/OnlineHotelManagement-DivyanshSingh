@@ -2,15 +2,19 @@ package com.capgemini.makereservationservice.model;
 
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class ReservationModel {
 	private int code;
 	private int noOfChildren;
 	private int noOfAdult;
+	@JsonFormat(pattern="yyyy-MM-dd")
 	private Date checkIn;
+	@JsonFormat(pattern="yyyy-MM-dd")
 	private Date checkOut;
 	private String status;
 	private int noOfNight;
-	private int roomNo;
+	private int roomno;
 	private String guestEmail;
 	private long guestPhoneNo;
 	
@@ -18,7 +22,7 @@ public class ReservationModel {
 		super();
 	}
 	public ReservationModel(int code, int noOfChildren, int noOfAdult, Date checkIn, Date checkOut, String status,
-			int noOfNight, int roomNo, String guestEmail, long guestPhoneNo) {
+			int noOfNight, int roomno, String guestEmail, long guestPhoneNo) {
 		super();
 		this.code = code;
 		this.noOfChildren = noOfChildren;
@@ -27,7 +31,7 @@ public class ReservationModel {
 		this.checkOut = checkOut;
 		this.status = status;
 		this.noOfNight = noOfNight;
-		this.roomNo = roomNo;
+		this.roomno = roomno;
 		this.guestEmail = guestEmail;
 		this.guestPhoneNo = guestPhoneNo;
 	}
@@ -73,11 +77,11 @@ public class ReservationModel {
 	public void setNoOfNight(int noOfNight) {
 		this.noOfNight = noOfNight;
 	}
-	public int getRoomNo() {
-		return roomNo;
+	public int getRoomno() {
+		return roomno;
 	}
-	public void setRoomNo(int roomNo) {
-		this.roomNo = roomNo;
+	public void setRoomno(int roomNo) {
+		this.roomno = roomNo;
 	}
 	public String getGuestEmail() {
 		return guestEmail;

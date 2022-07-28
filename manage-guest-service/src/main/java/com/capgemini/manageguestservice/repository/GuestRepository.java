@@ -16,5 +16,5 @@ public interface GuestRepository extends JpaRepository<Guest, Integer> {
 	@SuppressWarnings("unchecked")
 	public Guest save(Guest guest);
 	public Guest findById(int id);
-	
+	public Guest findByEmail(String Email);
 }

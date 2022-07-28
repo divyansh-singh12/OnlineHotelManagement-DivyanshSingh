@@ -17,7 +17,7 @@ public class ReservationMapper {
 		reservation.setCheckOut(model.getCheckOut());
 		reservation.setStatus(model.getStatus());
 		reservation.setNoOfNight(model.getNoOfNight());
-		reservation.setRoomNo(model.getRoomNo());
+		reservation.setRoomno(model.getRoomno());
 		reservation.setGuestEmail(model.getGuestEmail());
 		reservation.setGuestPhoneNo(model.getGuestPhoneNo());
 		return reservation;

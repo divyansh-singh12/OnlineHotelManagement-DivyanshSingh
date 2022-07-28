@@ -53,6 +53,11 @@ public class GuestServiceImpl implements GuestService {
 		
 		
 	}
+	
+	public GuestModel viewGuestService(String email) {
+		Guest guestEntity = guestRepository.findByEmail(email);
+		return guestMapper.mapEntityToDto(guestEntity);
+	}
 
 
 }

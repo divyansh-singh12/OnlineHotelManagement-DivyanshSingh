@@ -3,8 +3,10 @@ package com.capgemini.manageroomservice.model;
 import java.sql.Time;
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class RoomModel {
-	private int room_no;
+	private int roomno;
 	private String type;
 	private int capacity;
 	private String status;
@@ -13,6 +15,7 @@ public class RoomModel {
 	private int room_rate;
 	private int first_night_rate;
 	private int extension_rate;
+	@JsonFormat(pattern="yyyy-MM-dd")
 	private Date bookedtill;
 	
 	public RoomModel() {
@@ -32,9 +35,9 @@ public class RoomModel {
 	}
 
 
-	public RoomModel(int room_no, String type, int capacity, String status, int room_rate) {
+	public RoomModel(int roomno, String type, int capacity, String status, int room_rate) {
 		super();
-		this.room_no = room_no;
+		this.roomno = roomno;
 		this.type = type;
 		this.capacity = capacity;
 		this.status = status;
@@ -42,9 +45,9 @@ public class RoomModel {
 	}
 
 
-	public RoomModel(int room_no, String type, int capacity, String status) {
+	public RoomModel(int roomno, String type, int capacity, String status) {
 		super();
-		this.room_no = room_no;
+		this.roomno = roomno;
 		this.type = type;
 		this.capacity = capacity;
 		this.status = status;
@@ -81,11 +84,11 @@ public class RoomModel {
 	}
 
 
-	public int getRoom_no() {
-		return room_no;
+	public int getRoomno() {
+		return roomno;
 	}
-	public void setRoom_no(int room_no) {
-		this.room_no = room_no;
+	public void setRoomno(int roomno) {
+		this.roomno = roomno;
 	}
 	public String getType() {
 		return type;

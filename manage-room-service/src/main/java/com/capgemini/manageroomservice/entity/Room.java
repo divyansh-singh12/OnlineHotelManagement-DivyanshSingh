@@ -16,7 +16,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 public class Room {
 	@Id
 	@Column
-	private int room_no;
+	private int roomno;
 	@Column
 	private String type;
 	@Column
@@ -55,11 +55,11 @@ public class Room {
 	public void setCheck_out_time(Time check_out_time) {
 		this.check_out_time = check_out_time;
 	}
-	public int getRoom_no() {
-		return room_no;
+	public int getRoomno() {
+		return roomno;
 	}
-	public void setRoom_no(int room_no) {
-		this.room_no = room_no;
+	public void setRoomno(int roomno) {
+		this.roomno = roomno;
 	}
 	public String getType() {
 		return type;

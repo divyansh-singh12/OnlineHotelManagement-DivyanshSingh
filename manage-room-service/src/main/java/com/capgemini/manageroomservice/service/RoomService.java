@@ -8,7 +8,8 @@ import com.capgemini.manageroomservice.model.RoomModel;
 public interface RoomService {
 	public RoomModel addRoomService(RoomModel room);
 	public RoomModel updateRoomService(RoomModel room);
-	public String deleteRoomService(int id);
+	public String deleteRoomService(int roomno);
 	public String setRatesService(RoomModel room);
 	public String bookedRoom(BookData bookData);
+	public RoomModel viewroom(int roomno);
 }
