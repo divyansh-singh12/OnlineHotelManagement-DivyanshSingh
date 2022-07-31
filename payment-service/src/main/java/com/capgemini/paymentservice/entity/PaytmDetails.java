@@ -89,4 +89,11 @@ public class PaytmDetails {
 		this.website = website;
 	}
 
+	@Override
+	public String toString() {
+		return "PaytmDetails [merchantId=" + merchantId + ", merchantKey=" + merchantKey + ", channelId=" + channelId
+				+ ", website=" + website + ", industryTypeId=" + industryTypeId + ", paytmUrl=" + paytmUrl
+				+ ", details=" + details + "]";
+	}
+
 }

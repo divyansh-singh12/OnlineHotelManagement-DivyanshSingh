@@ -2,11 +2,14 @@ package com.capgemini.managestaffservice.model;
 
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class StaffModel {
 	private int  code;
 	private String firstname;
 	private String lastname;
 	private int salary;
+	@JsonFormat(pattern="yyyy-MM-dd")
 	private Date joinedon;
 	private int age;
 	private String occupation;

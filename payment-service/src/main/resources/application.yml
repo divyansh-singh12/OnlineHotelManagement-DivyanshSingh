@@ -5,17 +5,17 @@ spring:
     name: payment-service
 paytm.payment:
   sandbox:
-    merchantId: sviaeV91055242769175
-    merchantKey: llaDwHcg4Nc4xLIH
+    merchantId: foEaUP15584985546689
+    merchantKey: 08#EOOnUH6G1gvas
     channelId: WEB
     website: WEBSTAGING
     industryTypeId: Retail
     paytmUrl:  https://securegw-stage.paytm.in/order/process
     callbackUrl: http://localhost:8085/pgresponse
     details:
-      MID: ${paytm.payment.sandbox.merchantid}
-      CHANNEL_ID: ${paytm.payment.sandbox.channelid}
-      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.industrytypeid}
+      MID: ${paytm.payment.sandbox.merchantId}
+      CHANNEL_ID: ${paytm.payment.sandbox.channelId}
+      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.industryTypeId}
       WEBSITE: ${paytm.payment.sandbox.website}
       CALLBACK_URL: ${paytm.payment.sandbox.callbackUrl}
 paytm :

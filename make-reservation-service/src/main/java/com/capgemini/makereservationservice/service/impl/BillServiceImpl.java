@@ -1,5 +1,6 @@
 package com.capgemini.makereservationservice.service.impl;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
@@ -14,6 +15,8 @@ import com.capgemini.makereservationservice.entity.Reservation;
 import com.capgemini.makereservationservice.mapper.BillMapper;
 import com.capgemini.makereservationservice.model.BillModel;
 import com.capgemini.makereservationservice.model.GuestModel;
+import com.capgemini.makereservationservice.model.IncomeList;
+import com.capgemini.makereservationservice.model.IncomeReportModel;
 import com.capgemini.makereservationservice.model.RoomModel;
 import com.capgemini.makereservationservice.repository.BillRepository;
 import com.capgemini.makereservationservice.repository.ReservationRepository;
@@ -82,4 +85,21 @@ public class BillServiceImpl implements BillService{
 		return billModel;
 	}
 
+	
+	public IncomeList generateReport() {
+		List<Bill> demoList = billRepository.findAll();
+		List<IncomeReportModel> reportModelList = new ArrayList<IncomeReportModel>();
+		for(Bill billinfo : demoList) {
+			IncomeReportModel reportModel=new IncomeReportModel();
+			reportModel.setBillid(billinfo.getBillid());
+			reportModel.setRoomno(billinfo.getRoomno());
+			reportModel.setGuestname(billinfo.getGuestName());
+			reportModel.setBilldate(billinfo.getBillDate());
+			reportModel.setTotalbill(billinfo.getTotalBill());
+			reportModelList.add(reportModel);
+			}
+		IncomeList incomeList = new IncomeList();
+		incomeList.setIncomeReportList(reportModelList);;
+		return incomeList;
+	}
 }

@@ -10,3 +10,14 @@ spring:
       database: reservationdb
     main:
       allow-circular-references: true
+    mail:
+      host: smtp.gmail.com
+      port: 587
+      username: guptavishu0508@gmail.com
+      password: pvhnmftptrjtvnxb
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+                enable: true
