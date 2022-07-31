@@ -1,54 +1,64 @@
 server:
   port: 8110
 
- 
+  
 spring:
+  main:
+    allow-bean-definition-overriding: TRUE
+  security:
+    user:
+      name: abc
+      password: abc
+    
   application:
     name: spring-cloud-gateway-server
+  
   cloud:
     gateway:
       routes:
       - id: ManageDepartment
         uri: http://localhost:8081/
         predicates:
-        - Path=/ManageDepartment/**
-       
+        - Path=/owner/ManageDepartment/**
+        
       - id: ManageInventory
         uri: http://localhost:8082/
         predicates:
-        - Path=/ManageInventory/**
-       
+        - Path=manager/ManageInventory/**
+        
       - id: ManageStaff
         uri: http://localhost:8083/
         predicates:
         - Path=/ManageStaff/**
-       
+        
       - id: RetrieveReport
         uri: http://localhost:8084/
         predicates:
         - Path=/RetrieveReport/**  
-     
+      
       - id: MakePayment
         uri: http://localhost:8085/
         predicates:
         - Path=/MakePayment/**
-     
+      
       - id: MakeReservation
         uri: http://localhost:8086/
         predicates:
         - Path=/MakeReservation/**
-       
+        
       - id: ManageRoom
         uri: http://localhost:8087/
         predicates:
         - Path=/ManageRoom/**
-       
+        
       - id: ManageGuest
         uri: http://localhost:8088/
         predicates:
         - Path=/ManageGuest/**
-       
+        
       - id: ManageUser
         uri: http://localhost:8089/
         predicates:
         - Path=/ManageUser/**
+        
+      

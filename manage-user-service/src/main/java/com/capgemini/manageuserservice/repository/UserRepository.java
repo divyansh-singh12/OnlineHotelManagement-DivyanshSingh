@@ -25,5 +25,9 @@ public List<User> findAll();
 	
 	@Query("select u from User u where u.username = :email")
 	public User getUserByUsername(@Param("email") String email);
+	
+	
+	
+	
 		
 }

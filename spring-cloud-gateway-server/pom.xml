@@ -12,12 +12,25 @@
 	<artifactId>spring-cloud-gateway-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-cloud-gateway-server</name>
-	<description>API Gateway server</description>
+	<description>Spring Boot API Gateway</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
+		
+
+		<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+    
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>

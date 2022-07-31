@@ -18,7 +18,7 @@ import com.capgemini.managedepartmentservice.model.DepartmentModel;
 import com.capgemini.managedepartmentservice.service.DepartmentService;
 
 @RestController
-@RequestMapping("/ManageDepartment")
+@RequestMapping("owner/ManageDepartment")
 public class DepartmentController {
 	
 	@Autowired

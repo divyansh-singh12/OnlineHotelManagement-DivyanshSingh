@@ -19,7 +19,7 @@ import com.capgemini.manageinventoryservice.model.InventoryModel;
 import com.capgemini.manageinventoryservice.service.InventoryService;
 
 @RestController
-@RequestMapping("ManageInventory")
+@RequestMapping("manager/ManageInventory")
 public class InventoryController {
 	
 	@Autowired

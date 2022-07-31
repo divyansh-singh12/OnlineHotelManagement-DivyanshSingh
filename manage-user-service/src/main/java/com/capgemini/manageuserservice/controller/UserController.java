@@ -45,4 +45,10 @@ public class UserController {
 	public ResponseEntity<String> deleteUser(@PathVariable String username) {
 		return ResponseEntity.ok(userService.deleteUserService(username));
 	}
+	
+	@GetMapping(value = "/checkuser/{username}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<UserModel> checkUser(@PathVariable String username ) {
+		return ResponseEntity.ok(userService.checkUser(username));
+		
+	}
 }
