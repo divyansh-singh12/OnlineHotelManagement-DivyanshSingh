@@ -17,8 +17,8 @@ public class MessageListener {
 	@RabbitListener(queues = MqConfig.QUEUE)
 	public void listener(CustomMessage message) {
 		try {
-		notifications(message);
-		}catch(Exception e) {
+			notifications(message);
+		} catch (Exception e) {
 			System.out.println(e);
 		}
 	}

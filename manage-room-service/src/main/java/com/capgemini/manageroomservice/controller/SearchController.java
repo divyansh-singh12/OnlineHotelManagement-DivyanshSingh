@@ -2,6 +2,8 @@ package com.capgemini.manageroomservice.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -17,12 +19,14 @@ import com.capgemini.manageroomservice.service.SearchService;
 @RestController
 @RequestMapping("/SearchRoom")
 public class SearchController {
+	Logger logger = LoggerFactory.getLogger(SearchController.class);
 	@Autowired
 	private SearchService searchService;
-	
-	@GetMapping(value="/result", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<RoomModel>> searchRoom(@RequestBody SearchModel searchQuery){
+
+	@GetMapping(value = "/result", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<List<RoomModel>> searchRoom(@RequestBody SearchModel searchQuery) {
+		logger.info("Search room has been accessed");
 		return ResponseEntity.ok(searchService.searchRoomService(searchQuery));
-		}
-	
+	}
+
 }

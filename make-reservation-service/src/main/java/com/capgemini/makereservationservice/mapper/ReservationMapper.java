@@ -22,9 +22,9 @@ public class ReservationMapper {
 		reservation.setGuestPhoneNo(model.getGuestPhoneNo());
 		return reservation;
 	}
-	
+
 	public ReservationModel mapEntityToDto(Reservation reservation) {
-		ReservationModel model=new ReservationModel();
+		ReservationModel model = new ReservationModel();
 		BeanUtils.copyProperties(reservation, model);
 		return model;
 	}

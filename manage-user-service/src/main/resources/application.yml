@@ -12,3 +12,8 @@ spring:
      hibernate.ddl-auto: update
      generate-ddl: true
      show-sql: true
+logging:
+  level:
+    com:
+      capgemini:
+        manageuserservice: INFO

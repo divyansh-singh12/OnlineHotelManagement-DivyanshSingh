@@ -15,7 +15,7 @@ public class RetrieveReportServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RetrieveReportServiceApplication.class, args);
 	}
-	
+
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();

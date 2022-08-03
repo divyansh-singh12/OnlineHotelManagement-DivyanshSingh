@@ -11,14 +11,19 @@ import com.capgemini.manageroomservice.entity.Room;
 @EnableJpaRepositories
 public interface RoomRepository extends JpaRepository<Room, Integer> {
 	public List<Room> findAll();
-	
+
 	@SuppressWarnings("unchecked")
 	public Room save(Room room);
+
 	public void deleteById(int roomno);
-	public void delete (Room room);
+
+	public void delete(Room room);
+
 	public Room findById(int id);
-	
+
 	public List<Room> findAllByTypeAndCapacity(String type, int capacity);
+
 	public List<Room> findByStatus(String status);
-	public Room findByRoomno (int roomno);
+
+	public Room findByRoomno(int roomno);
 }

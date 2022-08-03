@@ -10,8 +10,9 @@ import com.capgemini.manageguestservice.model.GuestModel;
 public class GuestMapper {
 	@Autowired
 	private AddressMapper addressMapper;
+
 	public Guest mapDtoToEntity(GuestModel guest) {
-	
+
 		Guest guestEntity = new Guest();
 		guestEntity.setId(guest.getId());
 		guestEntity.setFirstName(guest.getFirstName());
@@ -23,9 +24,9 @@ public class GuestMapper {
 		guestEntity.setGender(guest.getGender());
 		return guestEntity;
 	}
-	
+
 	public GuestModel mapEntityToDto(Guest guest) {
-		GuestModel guestModel= new GuestModel();
+		GuestModel guestModel = new GuestModel();
 		guestModel.setId(guest.getId());
 		guestModel.setFirstName(guest.getFirstName());
 		guestModel.setLastName(guest.getLastName());

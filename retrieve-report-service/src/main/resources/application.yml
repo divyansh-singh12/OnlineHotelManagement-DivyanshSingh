@@ -10,3 +10,8 @@ spring:
                     database: reportdb
      main:
               allow-circular-references: true
+logging:
+  level:
+    com:
+      capgemini:
+        retrievereportservice: INFO

@@ -10,13 +10,13 @@ import com.capgemini.managestaffservice.entity.Staff;
 
 @Repository
 @EnableJpaRepositories
-public interface StaffRepository extends JpaRepository<Staff,Integer> {
+public interface StaffRepository extends JpaRepository<Staff, Integer> {
 	public List<Staff> findAll();
-	
+
 	@SuppressWarnings("unchecked")
 	public Staff save(Staff staff);
-	
+
 	public void deleteById(int id);
-	
+
 	public Staff findById(int id);
 }

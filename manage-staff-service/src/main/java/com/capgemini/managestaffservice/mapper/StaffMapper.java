@@ -10,8 +10,9 @@ import com.capgemini.managestaffservice.model.StaffModel;
 public class StaffMapper {
 	@Autowired
 	private AddressMapper addressMapper;
+
 	public Staff mapDtoToEntity(StaffModel staff) {
-		Staff staffEntity=new Staff();
+		Staff staffEntity = new Staff();
 		staffEntity.setCode(staff.getCode());
 		staffEntity.setFirstname(staff.getFirstname());
 		staffEntity.setLastname(staff.getLastname());
@@ -23,8 +24,9 @@ public class StaffMapper {
 		staffEntity.setAddress(addressMapper.mapDtoToEntity(staff.getAddress()));
 		return staffEntity;
 	}
+
 	public StaffModel mapEntityToDto(Staff staff) {
-		StaffModel staffModel= new StaffModel();
+		StaffModel staffModel = new StaffModel();
 		staffModel.setCode(staff.getCode());
 		staffModel.setFirstname(staff.getFirstname());
 		staffModel.setLastname(staff.getLastname());

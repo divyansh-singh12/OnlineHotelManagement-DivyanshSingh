@@ -1,10 +1,10 @@
 package com.capgemini.manageroomservice.mapper;
 
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
 import com.capgemini.manageroomservice.entity.Room;
 import com.capgemini.manageroomservice.model.RoomModel;
+
 @Component
 public class RoomMapper {
 	public Room mapDtoToEntity(RoomModel room) {
@@ -21,9 +21,9 @@ public class RoomMapper {
 		roomEntity.setBookedtill(room.getBookedtill());
 		return roomEntity;
 	}
-	 
+
 	public RoomModel mapEntityToDto(Room room) {
-		RoomModel roomModel= new RoomModel();
+		RoomModel roomModel = new RoomModel();
 		roomModel.setRoomno(room.getRoomno());
 		roomModel.setType(room.getType());
 		roomModel.setCapacity(room.getCapacity());

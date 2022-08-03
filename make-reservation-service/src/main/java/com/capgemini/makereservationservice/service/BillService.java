@@ -8,5 +8,6 @@ import com.capgemini.makereservationservice.model.IncomeList;
 @Service
 public interface BillService {
 	public BillModel issueBill(int roomNo);
+
 	public IncomeList generateReport();
 }

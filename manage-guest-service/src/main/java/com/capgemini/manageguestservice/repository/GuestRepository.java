@@ -13,8 +13,11 @@ import com.capgemini.manageguestservice.entity.Guest;
 public interface GuestRepository extends JpaRepository<Guest, Integer> {
 
 	public List<Guest> findAll();
+
 	@SuppressWarnings("unchecked")
 	public Guest save(Guest guest);
+
 	public Guest findById(int id);
+
 	public Guest findByEmail(String Email);
 }

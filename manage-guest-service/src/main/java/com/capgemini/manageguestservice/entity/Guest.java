@@ -12,96 +12,90 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @Entity
 @EntityScan
-@Table(name= "guestdb")
+@Table(name = "guestdb")
 public class Guest {
-  @Id
-  @Column
-  private int id;
-  @Column
-  private String firstName;
-  @Column
-  private String lastName;
-  @Column
-  private long phoneNumber;
-  @Column
-  private String company;
-  @Column
-  private String email;
-  @Column
-  private String gender;
-  
-  @OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="addressid", referencedColumnName= "Id")
-  private Address address;
+	@Id
+	@Column
+	private int id;
+	@Column
+	private String firstName;
+	@Column
+	private String lastName;
+	@Column
+	private String phoneNumber;
+	@Column
+	private String company;
+	@Column
+	private String email;
+	@Column
+	private String gender;
 
-public int getId() {
-	return id;
-}
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "addressid", referencedColumnName = "Id")
+	private Address address;
 
-public void setId(int id) {
-	this.id = id;
-}
+	public int getId() {
+		return id;
+	}
 
-public String getFirstName() {
-	return firstName;
-}
+	public void setId(int id) {
+		this.id = id;
+	}
 
-public void setFirstName(String firstName) {
-	this.firstName = firstName;
-}
+	public String getFirstName() {
+		return firstName;
+	}
 
-public String getLastName() {
-	return lastName;
-}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-public void setLastName(String lastName) {
-	this.lastName = lastName;
-}
+	public String getLastName() {
+		return lastName;
+	}
 
-public long getPhoneNumber() {
-	return phoneNumber;
-}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
-public void setPhoneNumber(long phoneNumber) {
-	this.phoneNumber = phoneNumber;
-}
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
 
-public String getCompany() {
-	return company;
-}
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
 
-public void setCompany(String company) {
-	this.company = company;
-}
+	public String getCompany() {
+		return company;
+	}
 
-public String getEmail() {
-	return email;
-}
+	public void setCompany(String company) {
+		this.company = company;
+	}
 
-public void setEmail(String email) {
-	this.email = email;
-}
+	public String getEmail() {
+		return email;
+	}
 
-public String getGender() {
-	return gender;
-}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-public void setGender(String gender) {
-	this.gender = gender;
-}
+	public String getGender() {
+		return gender;
+	}
 
-public Address getAddress() {
-	return address;
-}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 
-public void setAddress(Address address) {
-	this.address = address;
-}
+	public Address getAddress() {
+		return address;
+	}
 
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 
-
-  
-
-  
-  
 }

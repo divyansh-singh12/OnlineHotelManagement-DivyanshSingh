@@ -10,6 +10,8 @@ import com.capgemini.makereservationservice.model.ReservationModel;
 @Service
 public interface ReservationService {
 	public BookData doReservation(ReservationModel reservation);
+
 	public List<ReservationModel> findallBookings();
+
 	public List<ReservationModel> findBookingsOfRoom(int roomno);
 }

@@ -8,17 +8,16 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "StaffPaymentReport")
 public class StaffPaymentReport {
-	
+
 	@Id
-	
 	private int code;
-	
+
 	private String firstname;
-	
+
 	private String lastname;
-	
+
 	private int salary;
-	
+
 	private Date joinedon;
 
 	public int getCode() {
@@ -60,8 +59,5 @@ public class StaffPaymentReport {
 	public void setJoinedon(Date joinedon) {
 		this.joinedon = joinedon;
 	}
-	
-	
 
 }
-

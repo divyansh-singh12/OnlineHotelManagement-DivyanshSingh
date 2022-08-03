@@ -11,5 +11,6 @@ import com.capgemini.retrievereportservice.model.StaffReportModel;
 @Service
 public interface StaffReportService {
 	public File generateStaffRreport(StaffList staffList);
-	public List<StaffReportModel> getStaffPaymentService(); 
+
+	public List<StaffReportModel> getStaffPaymentService();
 }

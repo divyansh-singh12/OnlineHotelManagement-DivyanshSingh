@@ -10,9 +10,11 @@ import com.capgemini.makereservationservice.entity.Bill;
 
 @Repository
 @EnableMongoRepositories
-public interface BillRepository extends MongoRepository<Bill,Integer> {
+public interface BillRepository extends MongoRepository<Bill, Integer> {
 	@SuppressWarnings("unchecked")
 	public Bill save(Bill bill);
+
 	public Bill findById(int billid);
+
 	public List<Bill> findAll();
 }

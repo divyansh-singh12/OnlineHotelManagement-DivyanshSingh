@@ -12,5 +12,5 @@ public class IncomeList {
 	public void setIncomeReportList(List<IncomeReportModel> incomeReportList) {
 		this.incomeReportList = incomeReportList;
 	}
-	
+
 }

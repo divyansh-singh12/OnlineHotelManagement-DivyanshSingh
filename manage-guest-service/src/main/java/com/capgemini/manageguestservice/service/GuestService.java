@@ -8,8 +8,11 @@ import com.capgemini.manageguestservice.model.GuestModel;
 public interface GuestService {
 
 	public GuestModel addGuestService(GuestModel guest);
+
 	public GuestModel updateGuestService(GuestModel guest);
+
 	public GuestModel viewGuestService(int id);
+
 	public GuestModel viewGuestService(String email);
-	
+
 }

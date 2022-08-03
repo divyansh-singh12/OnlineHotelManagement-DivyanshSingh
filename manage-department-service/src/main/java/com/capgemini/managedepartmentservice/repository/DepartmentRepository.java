@@ -10,16 +10,17 @@ import com.capgemini.managedepartmentservice.entity.Department;
 
 @Repository
 @EnableJpaRepositories
-public interface DepartmentRepository extends JpaRepository<Department, Integer>{
-	
+public interface DepartmentRepository extends JpaRepository<Department, Integer> {
+
 	public List<Department> findAll();
-	
+
 	@SuppressWarnings("unchecked")
 	public Department save(Department department);
-	
+
 	public void deleteById(int id);
-	
+
 	public Department findById(int id);
-	public Department findByName (String name);
+
+	public Department findByName(String name);
 
 }

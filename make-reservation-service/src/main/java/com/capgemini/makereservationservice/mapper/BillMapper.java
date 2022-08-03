@@ -24,9 +24,9 @@ public class BillMapper {
 		bill.setTotalBill(model.getTotalBill());
 		return bill;
 	}
-	
+
 	public BillModel mapEntityToDto(Bill bill) {
-		BillModel model=new BillModel();
+		BillModel model = new BillModel();
 		BeanUtils.copyProperties(bill, model);
 		return model;
 	}

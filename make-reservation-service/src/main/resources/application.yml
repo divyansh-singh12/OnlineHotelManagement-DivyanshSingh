@@ -21,3 +21,8 @@ spring:
             auth: true
             starttls:
                 enable: true
+logging:
+  level:
+    com:
+      capgemini:
+        makereservationservice: INFO

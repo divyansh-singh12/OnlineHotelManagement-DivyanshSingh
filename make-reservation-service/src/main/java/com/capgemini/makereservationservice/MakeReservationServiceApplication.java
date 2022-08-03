@@ -15,6 +15,7 @@ public class MakeReservationServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MakeReservationServiceApplication.class, args);
 	}
+
 	@Bean
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();

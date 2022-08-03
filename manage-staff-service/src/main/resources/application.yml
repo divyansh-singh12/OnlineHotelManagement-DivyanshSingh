@@ -12,3 +12,8 @@ spring:
      show-sql: true
 server:
     port:  8083
+logging:
+  level:
+    com:
+      capgemini:
+        managestaffservice: INFO

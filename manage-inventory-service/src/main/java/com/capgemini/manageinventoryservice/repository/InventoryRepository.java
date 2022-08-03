@@ -1,6 +1,5 @@
 package com.capgemini.manageinventoryservice.repository;
 
-
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -11,21 +10,17 @@ import com.capgemini.manageinventoryservice.entity.Inventory;
 
 @Repository
 @EnableJpaRepositories
-public interface InventoryRepository extends JpaRepository < Inventory , Integer> {
-	
+public interface InventoryRepository extends JpaRepository<Inventory, Integer> {
+
 	public List<Inventory> findAll();
-	
+
 	@SuppressWarnings("unchecked")
 	public Inventory save(Inventory inventory);
-	
+
 	public void deleteById(int id);
-	
+
 	public Inventory findById(int id);
-	
-	
-	
-	
-	public Inventory findByItemname (String itemname);
-	
+
+	public Inventory findByItemname(String itemname);
 
 }

@@ -17,68 +17,86 @@ public class Reservation {
 	private int noOfNight;
 	private int roomno;
 	private String guestEmail;
-	private long guestPhoneNo;
-	
+	private String guestPhoneNo;
+
 	public int getCode() {
 		return code;
 	}
+
 	public void setCode(int code) {
 		this.code = code;
 	}
+
 	public int getNoOfChildren() {
 		return noOfChildren;
 	}
+
 	public void setNoOfChildren(int noOfChildren) {
 		this.noOfChildren = noOfChildren;
 	}
+
 	public int getNoOfAdult() {
 		return noOfAdult;
 	}
+
 	public void setNoOfAdult(int noOfAdult) {
 		this.noOfAdult = noOfAdult;
 	}
+
 	public Date getCheckIn() {
 		return checkIn;
 	}
+
 	public void setCheckIn(Date checkIn) {
 		this.checkIn = checkIn;
 	}
+
 	public Date getCheckOut() {
 		return checkOut;
 	}
+
 	public void setCheckOut(Date checkOut) {
 		this.checkOut = checkOut;
 	}
+
 	public String getStatus() {
 		return status;
 	}
+
 	public void setStatus(String status) {
 		this.status = status;
 	}
+
 	public int getNoOfNight() {
 		return noOfNight;
 	}
+
 	public void setNoOfNight(int noOfNight) {
 		this.noOfNight = noOfNight;
 	}
+
 	public int getRoomno() {
 		return roomno;
 	}
+
 	public void setRoomno(int roomNo) {
 		this.roomno = roomNo;
 	}
+
 	public String getGuestEmail() {
 		return guestEmail;
 	}
+
 	public void setGuestEmail(String guestEmail) {
 		this.guestEmail = guestEmail;
 	}
-	public long getGuestPhoneNo() {
+
+	public String getGuestPhoneNo() {
 		return guestPhoneNo;
 	}
-	public void setGuestPhoneNo(long guestPhoneNo) {
+
+	public void setGuestPhoneNo(String guestPhoneNo) {
 		this.guestPhoneNo = guestPhoneNo;
 	}
-	
-	
+
 }

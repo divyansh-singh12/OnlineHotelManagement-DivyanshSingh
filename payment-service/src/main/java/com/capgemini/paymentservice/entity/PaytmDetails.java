@@ -18,20 +18,20 @@ import lombok.ToString;
 @ConfigurationProperties("paytm.payment.sandbox")
 
 public class PaytmDetails {
-	
+
 	private String merchantId;
 
-    private String merchantKey;
+	private String merchantKey;
 
-    private String channelId;
+	private String channelId;
 
-    private String website;
+	private String website;
 
-    private String industryTypeId;
+	private String industryTypeId;
 
-    private String paytmUrl;
+	private String paytmUrl;
 
-    private Map<String, String> details;
+	private Map<String, String> details;
 
 	public String getChannelId() {
 		return channelId;

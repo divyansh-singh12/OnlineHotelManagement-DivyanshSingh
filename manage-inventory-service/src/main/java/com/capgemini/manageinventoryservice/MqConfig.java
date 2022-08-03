@@ -11,38 +11,35 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MqConfig {
 
-    public static final String QUEUE = "hotel-owner-notification-queue";
-    public static final String EXCHANGE = "hotel_exchange";
-    public static final String ROUTING_KEY = "hotel_routingKey";
+	public static final String QUEUE = "hotel-owner-notification-queue";
+	public static final String EXCHANGE = "hotel_exchange";
+	public static final String ROUTING_KEY = "hotel_routingKey";
 
-    @Bean
-    public Queue queue() {
-        return  new Queue(QUEUE);
-    }
+	@Bean
+	public Queue queue() {
+		return new Queue(QUEUE);
+	}
 
-    @Bean
-    public TopicExchange exchange() {
-        return new TopicExchange(EXCHANGE);
-    }
+	@Bean
+	public TopicExchange exchange() {
+		return new TopicExchange(EXCHANGE);
+	}
 
-    @Bean
-    public Binding binding(Queue queue, TopicExchange exchange) {
-        return BindingBuilder
-                .bind(queue)
-                .to(exchange)
-                .with(ROUTING_KEY);
-    }
+	@Bean
+	public Binding binding(Queue queue, TopicExchange exchange) {
+		return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY);
+	}
 
-    @Bean
-    public MessageConverter messageConverter() {
-        return  new Jackson2JsonMessageConverter();
-    }
+	@Bean
+	public MessageConverter messageConverter() {
+		return new Jackson2JsonMessageConverter();
+	}
 
-    @Bean
-    public AmqpTemplate template(ConnectionFactory connectionFactory) {
-        RabbitTemplate template = new RabbitTemplate(connectionFactory);
-        template.setMessageConverter(messageConverter());
-        return  template;
-    }
+	@Bean
+	public AmqpTemplate template(ConnectionFactory connectionFactory) {
+		RabbitTemplate template = new RabbitTemplate(connectionFactory);
+		template.setMessageConverter(messageConverter());
+		return template;
+	}
 
 }

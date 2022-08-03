@@ -18,8 +18,9 @@ public class AddressMapper {
 		addressEntity.setPincode(address.getPincode());
 		return addressEntity;
 	}
+
 	public AddressModel mapEntityToDto(Address address) {
-		AddressModel addressModel= new AddressModel();
+		AddressModel addressModel = new AddressModel();
 		addressModel.setId(address.getId());
 		addressModel.setStreetName(address.getStreetName());
 		addressModel.setHouseNo(address.getHouseNo());

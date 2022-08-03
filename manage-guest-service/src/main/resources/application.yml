@@ -12,3 +12,8 @@ spring:
      show-sql: true
 server:
     port: 8088
+logging:
+  level:
+    com:
+      capgemini:
+        manageguestservice: INFO
