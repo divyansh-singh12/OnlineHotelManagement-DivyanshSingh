@@ -45,8 +45,12 @@ public class BillServiceImpl implements BillService {
 				break;
 			}
 		}
+
 		Random rd = new Random();
 		BillModel billModel = new BillModel();
+		if(reservationdata.getGuestEmail() == null) {
+			return billModel;
+		}
 		billModel.setBillid(rd.nextInt(Integer.MAX_VALUE));
 
 		GuestModel guest = resttemplate.getForEntity("http://localhost:8088/ManageGuest/viewguest/{email}",

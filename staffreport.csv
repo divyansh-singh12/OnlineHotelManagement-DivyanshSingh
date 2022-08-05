@@ -1,7 +1,0 @@
-Bill_id,Room_No,Guest_Name,Bill_Date,Total_Bill
--91490849,304,Divyansh Singh,Thu Jul 28 12:56:43 IST 2022,30680.0
-793758322,301,Divyansh Singh,Sun Jul 31 14:34:09 IST 2022,25960.0
-1658510939,304,Jayant Tyagi,Sun Jul 31 14:36:39 IST 2022,34692.0
-312824267,402,Harsh Chaudhary,Sun Jul 31 14:38:37 IST 2022,11210.0
-Total_Income,Salaries_Paid,Profit
-102542.0,35500.0,67042.0

@@ -24,7 +24,7 @@ import com.capgemini.manageinventoryservice.model.InventoryModel;
 import com.capgemini.manageinventoryservice.service.InventoryService;
 
 @RestController
-@RequestMapping("manager/ManageInventory")
+@RequestMapping("/ManageInventory")
 public class InventoryController {
 	Logger logger = LoggerFactory.getLogger(InventoryController.class);
 	@Autowired
@@ -90,7 +90,6 @@ public class InventoryController {
 	public ResponseEntity<InventoryModel> findInventByName(@RequestBody InventoryModel inventory) {
 		logger.info("View inventory by name has been accessed");
 		return ResponseEntity.ok(inventoryService.viewInventByName(inventory.getItemname()));
-
 	}
 
 	@GetMapping(value = "/viewall", produces = MediaType.APPLICATION_JSON_VALUE)

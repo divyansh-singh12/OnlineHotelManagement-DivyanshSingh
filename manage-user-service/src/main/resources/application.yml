@@ -1,6 +1,8 @@
 server:
     port: 8089
 spring:
+    banner:
+          location: banner.txt
     application:
          name: manage-user-service
     datasource:

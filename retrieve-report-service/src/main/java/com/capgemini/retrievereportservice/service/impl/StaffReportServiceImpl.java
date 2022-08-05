@@ -37,7 +37,7 @@ public class StaffReportServiceImpl implements StaffReportService {
 					.append(reportModel.getLastname()).append(",").append(reportModel.getSalary()).append(",")
 					.append(reportModel.getJoinedon()).append("\n");
 		}
-		String filename = "D:\\Online Hotel Management System\\staffreport.csv";
+		String filename = "D:\\Online Hotel Management System\\staff_report.csv";
 
 		try {
 

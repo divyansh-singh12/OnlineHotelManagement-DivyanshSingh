@@ -1,0 +1,10 @@
+2022-08-04 11:02:16,245 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 11064 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-04 11:02:16,252 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-04 11:02:35,923 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 20.974 seconds (JVM running for 24.374)
+2022-08-04 11:03:12,851 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] report staff data has been accessed
+2022-08-04 23:27:00,803 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 16796 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-04 23:27:00,818 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-04 23:27:17,878 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 18.995 seconds (JVM running for 22.22)
+2022-08-04 23:40:52,125 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] Hello Test has been accessed
+2022-08-04 23:46:30,405 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] Hello Test has been accessed
+2022-08-04 23:48:09,329 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] Hello Test has been accessed

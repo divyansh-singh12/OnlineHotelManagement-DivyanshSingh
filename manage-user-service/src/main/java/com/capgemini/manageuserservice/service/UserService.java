@@ -12,6 +12,4 @@ public interface UserService {
 
 	public String deleteUserService(String username);
 
-	public UserModel checkUser(String username);
-
 }

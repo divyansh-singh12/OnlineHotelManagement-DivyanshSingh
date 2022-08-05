@@ -14,7 +14,7 @@ public class AddressModel {
 	@Size(min = 5, max = 120, message = "street cannot be less than 5 and more than 120 alphabets")
 	private String streetName;
 
-	@Size(min = 4, max = 8, message = "houseNo cannot be less than 4 and more than 7 alphabets")
+	@Size(min = 3, max = 8, message = "houseNo cannot be less than 4 and more than 7 alphabets")
 	private String houseNo;
 
 	@NotBlank(message = "city is mandatory")
@@ -30,7 +30,7 @@ public class AddressModel {
 	private String country;
 
 	@NotNull(message = "pincode is mandatory")
-	@Min(value = 111111)
+	@Min(value = 100001)
 	@Max(value = 999999)
 	private long pincode;
 

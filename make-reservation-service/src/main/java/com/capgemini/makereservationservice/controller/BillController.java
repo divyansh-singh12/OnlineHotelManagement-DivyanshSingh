@@ -3,6 +3,7 @@ package com.capgemini.makereservationservice.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,11 +27,13 @@ public class BillController {
 	private EmailService service;
 
 	@GetMapping(value = "/{roomno}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<BillModel> issueBill(@PathVariable int roomno) {
+	public ResponseEntity<?> issueBill(@PathVariable int roomno) {
 		BillModel billmodel = billService.issueBill(roomno);
-
+		if(billmodel.getBillid() == 0) {
+			return new ResponseEntity<>("NO BOOKING FOUND TO ISSUE BILL FOR NOW", HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 		StringBuilder maildata = new StringBuilder(
-				"Hello Guest, \n thank you for choosing us as your Staying destination. your bill has been generated and details are as follows: \n");
+				"Hello Guest, \n\nThank you for choosing us as your staying destination. Your bill has been generated and details are as follows: \n");
 		maildata.append("Bill ID: ").append(billmodel.getBillid()).append("\n");
 		maildata.append("Booked Room: ").append(billmodel.getRoomno()).append("\n");
 		maildata.append("Room Type: ").append(billmodel.getRoomType()).append("\n");

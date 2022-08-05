@@ -1,14 +1,16 @@
 server:
       port: 8084
 spring:
-     application:
+      banner:
+          location: banner.txt
+      application:
             name: retrieve-report-service
-     data:
+      data:
              mongodb:
                     host: localhost
                     port: 27017
                     database: reportdb
-     main:
+      main:
               allow-circular-references: true
 logging:
   level:

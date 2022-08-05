@@ -9,18 +9,16 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 public class ReservationModel {
 
 	private int code;
-	@Min(value = 1)
+	@Min(value = 0)
 	@Max(value = 4)
 	private int noOfChildren;
 	@Min(value = 1)
 	@Max(value = 4)
 	private int noOfAdult;
 	@NotNull
-	@FutureOrPresent
 	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Date checkIn;
 	@NotNull
-	@FutureOrPresent
 	@JsonFormat(pattern = "yyyy-MM-dd")
 	private Date checkOut;
 	@NotBlank
@@ -31,7 +29,7 @@ public class ReservationModel {
 	@NotNull
 	private int roomno;
 	@Email
-	@Pattern(regexp = "^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$", message = "criteria doesnt match")
+	@Pattern(regexp = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$", message = "criteria doesnt match")
 	private String guestEmail;
 	@NotBlank(message = "phone no can not be null")
 	@Pattern(regexp = "^(\\s*|\\d{10})$", message = "criteria doesn't match")

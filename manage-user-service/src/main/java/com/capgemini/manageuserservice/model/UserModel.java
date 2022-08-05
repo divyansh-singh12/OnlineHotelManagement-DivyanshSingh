@@ -5,7 +5,7 @@ import javax.validation.constraints.*;
 public class UserModel {
 
 	@NotBlank
-	@Pattern(regexp = "^(\\s*|\\d{10})$", message = "criteria doesn't match")
+	@Pattern(regexp = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$", message = "criteria doesn't match")
 	private String username;
 	@NotBlank
 	private String name;

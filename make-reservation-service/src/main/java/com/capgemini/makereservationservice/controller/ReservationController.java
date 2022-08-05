@@ -56,7 +56,7 @@ public class ReservationController {
 	public ResponseEntity<String> makeReservation(@RequestBody ReservationModel reservation) {
 		BookData bookdata = reservationService.doReservation(reservation);
 		StringBuilder maildata = new StringBuilder(
-				"Hello Guest, \n thank you for choosing us as your Staying destination. your room has been booked and details are as follows: \n");
+				"Hello Guest, \n\nThank you for choosing us as your Staying destination. Your room has been booked and details are as follows: \n");
 		maildata.append("Booked Room: ").append(reservation.getRoomno()).append("\n");
 		maildata.append("Check In date: ").append(reservation.getCheckIn()).append("\n");
 		maildata.append("Check out date: ").append(reservation.getCheckOut()).append("\n");

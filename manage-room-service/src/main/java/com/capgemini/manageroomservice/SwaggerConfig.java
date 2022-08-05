@@ -26,7 +26,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
 
 	private ApiInfo apidetails() {
 		return new ApiInfo("Manage Room", "It manages all the room present in the Hotel.", "1.0", "Free to use",
-				new springfox.documentation.service.Contact("Divyansh Singh", "http://localhost:8087",
+				new springfox.documentation.service.Contact("Divyansh Singh", "http://localhost:8087/ManageRoom/HelloTest",
 						"silentknight1010@gmail.com"),
 				"API Licence", "http://localhost:8087", Collections.emptyList());
 	}

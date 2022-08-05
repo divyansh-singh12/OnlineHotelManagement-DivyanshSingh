@@ -1,6 +1,8 @@
 server:
     port: 8086
 spring:
+    banner:
+          location: banner.txt
     application:
          name: make-reservation-service
     data:

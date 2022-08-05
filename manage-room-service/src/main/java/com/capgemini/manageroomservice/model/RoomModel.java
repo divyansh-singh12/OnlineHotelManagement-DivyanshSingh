@@ -12,7 +12,6 @@ public class RoomModel {
 	private String status;
 	private Time check_in_time;
 	private Time check_out_time;
-	private int room_rate;
 	private int first_night_rate;
 	private int extension_rate;
 	@JsonFormat(pattern = "yyyy-MM-dd")
@@ -31,15 +30,6 @@ public class RoomModel {
 		this.check_out_time = check_out_time;
 		this.first_night_rate = first_night_rate;
 		this.extension_rate = extension_rate;
-	}
-
-	public RoomModel(int roomno, String type, int capacity, String status, int room_rate) {
-		super();
-		this.roomno = roomno;
-		this.type = type;
-		this.capacity = capacity;
-		this.status = status;
-		this.room_rate = room_rate;
 	}
 
 	public RoomModel(int roomno, String type, int capacity, String status) {
@@ -104,14 +94,6 @@ public class RoomModel {
 
 	public void setStatus(String status) {
 		this.status = status;
-	}
-
-	public int getRoom_rate() {
-		return room_rate;
-	}
-
-	public void setRoom_rate(int room_rate) {
-		this.room_rate = room_rate;
 	}
 
 	public int getFirst_night_rate() {

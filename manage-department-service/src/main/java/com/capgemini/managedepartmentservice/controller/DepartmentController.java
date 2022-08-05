@@ -21,7 +21,7 @@ import com.capgemini.managedepartmentservice.service.DepartmentService;
 import com.capgemini.managedepartmentservice.service.impl.MessageListener;
 
 @RestController
-@RequestMapping("owner/ManageDepartment")
+@RequestMapping("/ManageDepartment")
 public class DepartmentController {
 	Logger logger = LoggerFactory.getLogger(DepartmentController.class);
 	@Autowired

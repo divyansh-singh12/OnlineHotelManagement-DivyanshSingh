@@ -1,0 +1,13 @@
+2022-08-06 00:01:14,689 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-2] User HelloTest has been accessed
+2022-08-06 00:08:09,618 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 27956 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
+2022-08-06 00:08:09,621 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-06 00:08:17,050 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 8.126 seconds (JVM running for 9.305)
+2022-08-06 00:39:10,599 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 16444 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
+2022-08-06 00:39:10,602 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-06 00:39:17,662 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 7.737 seconds (JVM running for 8.844)
+2022-08-06 00:40:23,117 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-1] delete user has been accessed
+2022-08-06 00:42:25,452 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-4] User HelloTest has been accessed
+2022-08-06 00:44:11,457 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-7] Add user has been accessed
+2022-08-06 00:45:39,780 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-1] update user has been accessed
+2022-08-06 00:50:01,034 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-5] update user has been accessed
+2022-08-06 00:50:35,124 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-8] delete user has been accessed

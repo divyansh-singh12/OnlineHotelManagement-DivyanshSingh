@@ -15,7 +15,6 @@ public class RoomMapper {
 		roomEntity.setStatus(room.getStatus());
 		roomEntity.setCheck_in_time(room.getCheck_in_time());
 		roomEntity.setCheck_out_time(room.getCheck_out_time());
-		roomEntity.setRoom_rate(room.getRoom_rate());
 		roomEntity.setFirst_night_rate(room.getFirst_night_rate());
 		roomEntity.setExtension_rate(room.getExtension_rate());
 		roomEntity.setBookedtill(room.getBookedtill());
@@ -30,7 +29,6 @@ public class RoomMapper {
 		roomModel.setStatus(room.getStatus());
 		roomModel.setCheck_in_time(room.getCheck_in_time());
 		roomModel.setCheck_out_time(room.getCheck_out_time());
-		roomModel.setRoom_rate(room.getRoom_rate());
 		roomModel.setFirst_night_rate(room.getFirst_night_rate());
 		roomModel.setExtension_rate(room.getExtension_rate());
 		roomModel.setBookedtill(room.getBookedtill());

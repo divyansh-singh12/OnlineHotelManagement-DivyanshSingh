@@ -1,0 +1,9 @@
+2022-08-04 11:02:30,696 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Starting RetrieveReportServiceApplication using Java 17.0.2 on Divyansh with PID 10356 (D:\Online Hotel Management System\retrieve-report-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-04 11:02:30,715 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-04 11:02:47,340 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Started RetrieveReportServiceApplication in 18.613 seconds (JVM running for 21.021)
+2022-08-04 11:02:50,632 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-1] Generate income report has been accessed
+2022-08-04 11:03:14,426 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-6] Generate staff report has been accessed
+2022-08-04 23:28:22,429 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Starting RetrieveReportServiceApplication using Java 17.0.2 on Divyansh with PID 24040 (D:\Online Hotel Management System\retrieve-report-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-04 23:28:22,590 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-04 23:28:36,318 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Started RetrieveReportServiceApplication in 15.752 seconds (JVM running for 19.496)
+2022-08-04 23:47:14,928 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-1] Hello Test has been accessed

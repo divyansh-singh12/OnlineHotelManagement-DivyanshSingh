@@ -28,8 +28,6 @@ public class Room {
 	@Column
 	private Time check_out_time;
 	@Column
-	private int room_rate;
-	@Column
 	private int first_night_rate;
 	@Column
 	private int extension_rate;
@@ -90,14 +88,6 @@ public class Room {
 
 	public void setStatus(String status) {
 		this.status = status;
-	}
-
-	public int getRoom_rate() {
-		return room_rate;
-	}
-
-	public void setRoom_rate(int room_rate) {
-		this.room_rate = room_rate;
 	}
 
 	public int getFirst_night_rate() {

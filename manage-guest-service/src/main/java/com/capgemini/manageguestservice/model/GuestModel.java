@@ -22,7 +22,7 @@ public class GuestModel {
 	private String company;
 
 	@Email
-	@Pattern(regexp = "^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$", message = "criteria doesnt match")
+	@Pattern(regexp = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$", message = "criteria doesnt match")
 	private String email;
 
 	@NotBlank

@@ -1,0 +1,228 @@
+2022-08-05 00:05:19,858 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-1] Hello test has been accessed
+2022-08-05 00:39:51,452 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 26556 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 00:39:51,454 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 00:39:56,962 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 6.2 seconds (JVM running for 7.387)
+2022-08-05 14:10:17,907 INFO com.capgemini.makereservationservice.MakeReservationServiceApplicationTests [main] Starting MakeReservationServiceApplicationTests using Java 17.0.2 on Divyansh with PID 25976 (started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 14:10:17,911 INFO com.capgemini.makereservationservice.MakeReservationServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:10:25,123 INFO com.capgemini.makereservationservice.MakeReservationServiceApplicationTests [main] Started MakeReservationServiceApplicationTests in 7.795 seconds (JVM running for 9.837)
+2022-08-05 14:10:43,430 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 26064 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 14:10:43,432 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:10:47,300 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 4.48 seconds (JVM running for 5.454)
+2022-08-05 14:22:52,373 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 26736 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 14:22:52,376 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:22:56,561 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 4.816 seconds (JVM running for 5.887)
+2022-08-05 17:09:00,608 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 29832 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 17:09:01,847 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 17:09:08,651 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+2022-08-05 17:09:42,070 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 7344 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 17:09:42,072 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 17:09:46,798 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 5.394 seconds (JVM running for 6.428)
+2022-08-05 17:10:14,532 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-1] Make Reservation has been accessed
+2022-08-05 17:25:08,277 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 31196 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 17:25:08,280 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 17:25:12,767 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 5.229 seconds (JVM running for 6.531)
+2022-08-05 17:30:55,240 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-1] Make Reservation has been accessed
+2022-08-05 17:33:04,624 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 22544 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 17:33:04,626 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 17:33:09,154 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 5.155 seconds (JVM running for 6.223)
+2022-08-05 17:38:34,162 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-1] View Booking has been accessed
+2022-08-05 17:39:06,433 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-2] All Booking view has been accessed
+2022-08-05 17:40:45,767 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-4] Issue Bill has been accessed
+2022-08-05 17:59:39,364 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MAKE-RESERVATION-SERVICE/Divyansh:make-reservation-service:8086 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:00:09,398 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MAKE-RESERVATION-SERVICE/Divyansh:make-reservation-service:8086 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:00:39,482 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MAKE-RESERVATION-SERVICE/Divyansh:make-reservation-service:8086 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:00:47,860 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(32)-127.0.0.1] DiscoveryClient_MAKE-RESERVATION-SERVICE/Divyansh:make-reservation-service:8086 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:11:48,472 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 31668 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 18:11:48,477 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 18:11:56,732 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 9.839 seconds (JVM running for 12.095)
+2022-08-05 20:52:04,944 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 17004 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 20:52:04,965 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 20:52:14,789 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 11.04 seconds (JVM running for 13.843)
+2022-08-05 22:20:58,435 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 24456 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 22:20:58,451 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 22:21:10,262 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 12.992 seconds (JVM running for 15.015)
+2022-08-05 22:21:35,314 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8086-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$UnsupportedMediaType: 415 : "{"timestamp":1659718294839,"status":415,"error":"Unsupported Media Type","path":"/ManageGuest/viewguest/"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$UnsupportedMediaType: 415 : "{"timestamp":1659718294839,"status":415,"error":"Unsupported Media Type","path":"/ManageGuest/viewguest/"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:133)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:361)
+	at com.capgemini.makereservationservice.service.impl.BillServiceImpl.issueBill(BillServiceImpl.java:56)
+	at com.capgemini.makereservationservice.controller.BillController.issueBill(BillController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 22:24:31,325 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 27000 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 22:24:31,337 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 22:24:43,349 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 13.953 seconds (JVM running for 17.029)
+2022-08-05 22:26:15,076 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 16648 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-05 22:26:15,086 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 22:26:31,774 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 19.023 seconds (JVM running for 22.0)
+2022-08-05 22:35:10,588 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-2] Issue Bill has been accessed
+2022-08-05 22:58:15,552 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-4] Report data for income has been accessed
+2022-08-05 23:01:47,308 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-6] Report data for income has been accessed

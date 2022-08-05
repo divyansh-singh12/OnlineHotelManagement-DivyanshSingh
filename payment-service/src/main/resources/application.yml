@@ -1,6 +1,8 @@
 server:
   port: 8085
 spring:
+  banner:
+    location: banner.txt
   application:
     name: payment-service
 paytm.payment:

@@ -2,13 +2,10 @@ package com.capgemini.manageroomservice.model;
 
 import java.sql.Time;
 
-import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-
-import org.springframework.format.annotation.DateTimeFormat;
 
 public class SetRatesModel {
 
@@ -19,12 +16,8 @@ public class SetRatesModel {
 	@Max(value = 6)
 	private int capacity;
 	@NotNull
-	@FutureOrPresent
-	@DateTimeFormat
 	private Time check_in_time;
 	@NotNull
-	@FutureOrPresent
-	@DateTimeFormat
 	private Time check_out_time;
 	@NotNull
 	@Min(value = 500)

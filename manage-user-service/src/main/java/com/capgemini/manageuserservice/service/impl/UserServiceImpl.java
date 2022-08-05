@@ -1,13 +1,8 @@
 package com.capgemini.manageuserservice.service.impl;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
-import javax.validation.ConstraintViolation;
-import javax.validation.ConstraintViolationException;
-import javax.validation.Validation;
-import javax.validation.Validator;
+import javax.validation.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -36,7 +31,6 @@ public class UserServiceImpl implements UserService {
 	}
 
 	public UserModel updateUserService(UserModel user) {
-		validateEntity(user);
 		User userEntity = userRepository.findByUsername(user.getUsername());
 		userEntity.setUsername(user.getUsername());
 		userEntity.setName(user.getName());
@@ -55,11 +49,6 @@ public class UserServiceImpl implements UserService {
 			e.printStackTrace();
 		}
 		return "can't delete";
-	}
-
-	public UserModel checkUser(String username) {
-		User user = userRepository.findByUsername(username);
-		return userMapper.mapEntityToDto(user);
 	}
 
 	private void validateEntity(UserModel user) {

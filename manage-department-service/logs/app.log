@@ -1,0 +1,98 @@
+2022-08-05 14:11:05,979 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplicationTests [main] Starting ManageDepartmentServiceApplicationTests using Java 17.0.2 on Divyansh with PID 29672 (started by Divyansh Singh in D:\Online Hotel Management System\manage-department-service)
+2022-08-05 14:11:05,990 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:11:17,998 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplicationTests [main] Started ManageDepartmentServiceApplicationTests in 12.771 seconds (JVM running for 14.873)
+2022-08-05 14:11:34,502 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Starting ManageDepartmentServiceApplication using Java 17.0.2 on Divyansh with PID 14784 (D:\Online Hotel Management System\manage-department-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-department-service)
+2022-08-05 14:11:34,689 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:11:40,267 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Started ManageDepartmentServiceApplication in 6.369 seconds (JVM running for 7.341)
+2022-08-05 14:33:30,726 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-1] delete department has been accessed
+2022-08-05 14:33:41,441 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-2] delete department has been accessed
+2022-08-05 14:37:48,536 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-4] add department has been accessed
+2022-08-05 14:38:37,770 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-5] add department has been accessed
+2022-08-05 14:39:35,927 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-6] add department has been accessed
+2022-08-05 14:40:39,883 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-8] add department has been accessed
+2022-08-05 14:42:48,352 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-10] add department has been accessed
+2022-08-05 14:44:41,958 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-2] Update department has been accessed
+2022-08-05 14:46:21,402 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-4] view all department has been accessed
+2022-08-05 14:47:01,954 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-10] view department by id has been accessed
+2022-08-05 15:00:57,218 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-2] send rabbitmq notification has been accessed
+2022-08-05 15:34:00,263 INFO com.capgemini.managedepartmentservice.controller.DepartmentController [http-nio-8081-exec-4] send rabbitmq notification has been accessed
+2022-08-05 17:59:43,013 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(232)-127.0.0.1] DiscoveryClient_MANAGE-DEPARTMENT-SERVICE/Divyansh:manage-department-service:8081 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:12:09,651 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Starting ManageDepartmentServiceApplication using Java 17.0.2 on Divyansh with PID 5008 (D:\Online Hotel Management System\manage-department-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-department-service)
+2022-08-05 18:12:09,655 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 18:12:22,729 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Started ManageDepartmentServiceApplication in 14.594 seconds (JVM running for 16.494)
+2022-08-05 20:52:38,007 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Starting ManageDepartmentServiceApplication using Java 17.0.2 on Divyansh with PID 20824 (D:\Online Hotel Management System\manage-department-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-department-service)
+2022-08-05 20:52:38,024 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 20:52:52,845 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Started ManageDepartmentServiceApplication in 16.473 seconds (JVM running for 19.298)
+2022-08-05 23:20:40,405 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Starting ManageDepartmentServiceApplication using Java 17.0.2 on Divyansh with PID 33016 (D:\Online Hotel Management System\manage-department-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-department-service)
+2022-08-05 23:20:40,424 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 23:21:01,483 INFO com.capgemini.managedepartmentservice.ManageDepartmentServiceApplication [main] Started ManageDepartmentServiceApplication in 22.762 seconds (JVM running for 25.057)

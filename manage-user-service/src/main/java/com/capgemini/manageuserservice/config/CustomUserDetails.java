@@ -1,4 +1,4 @@
-package com.capgemini.springcloudgatewayserver.config;
+package com.capgemini.manageuserservice.config;
 
 import java.util.Collection;
 import java.util.List;
@@ -7,37 +7,36 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.capgemini.springcloudgatewayserver.model.UserModel;
+import com.capgemini.manageuserservice.entity.User;
 
-//@Component
 @SuppressWarnings("serial")
 public class CustomUserDetails implements UserDetails {
 
-	private UserModel userModel;
+	private User user;
 
-	public CustomUserDetails(UserModel userModel) {
+	public CustomUserDetails(User user) {
 		super();
-		this.userModel = userModel;
+		this.user = user;
 	}
 
 	@Override
+	// to return a collection(In case multiple roles) otherwise single role of the
+	// authorities
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 
-		SimpleGrantedAuthority simpleGrantedAuthority = new SimpleGrantedAuthority(userModel.getRole());
+		SimpleGrantedAuthority simpleGrantedAuthority = new SimpleGrantedAuthority(user.getRole());
 
-		System.out.println(userModel.getRole());
 		return List.of(simpleGrantedAuthority);
 	}
 
 	@Override
 	public String getPassword() {
-		return userModel.getPassword();
+		return user.getPassword();
 	}
 
 	@Override
 	public String getUsername() {
-		// TODO Auto-generated method stub
-		return userModel.getUsername();
+		return user.getUsername();
 
 	}
 
