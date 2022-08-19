@@ -1,0 +1,21 @@
+2022-08-12 00:48:24,256 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-1] Add inventory has been accessed
+2022-08-12 00:48:53,790 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-2] Update inventory has been accessed
+2022-08-12 00:49:03,187 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-3] Delete inventory has been accessed
+2022-08-12 01:14:35,288 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-5] Add inventory has been accessed
+2022-08-12 08:48:22,184 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Starting ManageInventoryServiceApplication using Java 17.0.2 on Divyansh with PID 23900 (D:\Online Hotel Management System\manage-inventory-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-inventory-service)
+2022-08-12 08:48:22,189 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-12 08:48:30,311 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Started ManageInventoryServiceApplication in 9.558 seconds (JVM running for 11.79)
+2022-08-12 09:32:52,229 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-1] Add inventory has been accessed
+2022-08-12 09:34:06,999 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-3] Update inventory has been accessed
+2022-08-12 09:34:29,622 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-4] Delete inventory has been accessed
+2022-08-12 22:50:02,923 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Starting ManageInventoryServiceApplication using Java 17.0.2 on Divyansh with PID 4100 (D:\Online Hotel Management System\manage-inventory-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-inventory-service)
+2022-08-12 22:50:02,931 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-12 22:50:21,724 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Started ManageInventoryServiceApplication in 20.939 seconds (JVM running for 23.709)
+2022-08-12 22:57:33,567 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-1] Add inventory has been accessed
+2022-08-12 23:33:15,206 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-2] View all inventory has been accessed
+2022-08-12 23:33:16,699 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-5] View all inventory has been accessed
+2022-08-12 23:33:21,691 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-4] Delete inventory has been accessed
+2022-08-12 23:33:22,624 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-6] View all inventory has been accessed
+2022-08-12 23:33:22,638 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-7] View all inventory has been accessed
+2022-08-12 23:59:10,254 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-9] View all inventory has been accessed
+2022-08-12 23:59:10,296 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-10] View all inventory has been accessed

@@ -43,42 +43,42 @@ class ManageDepartmentServiceApplicationTests {
 	@Order(1)
 	public void testAdd() {
 		Department department = new Department();
-		department.setId(101);
-		department.setName("Harsh");
-		department.setHodName("Vishu");
+		department.setId(11);
+		department.setName("Test Department");
+		department.setHodName("Unit Test");
 		department.setHodPhoneNo("9536133303");
 		department.setSizeOfDepartment(20);
 		repository.save(department);
-		assertNotNull(repository.findById(101));
-		department.setId(102);
-		department.setName("Harsh");
-		department.setHodName("Vishu");
+		assertNotNull(repository.findById(11));
+		department.setId(12);
+		department.setName("Test Department 2");
+		department.setHodName("Unit Test");
 		department.setHodPhoneNo("9536133303");
 		department.setSizeOfDepartment(20);
 		repository.save(department);
-		assertNotNull(repository.findById(101));
+		assertNotNull(repository.findById(11));
 	}
 
 	// if any entity is filled with wrong data
 	@Test
 	public void testAdd2() {
 		DepartmentModel department = new DepartmentModel();
-		department.setId(103);
-		department.setName("Divuyansh");
-		department.setHodName("Vishu");
+		department.setId(13);
+		department.setName("Test Department 3");
+		department.setHodName("Unit Test");
 		department.setSizeOfDepartment(20);
 		repository.save(mapper.mapDtoToEntity(department));
 
-		assertNull(repository.findById(103).getHodPhoneNo());
+		assertNull(repository.findById(13).getHodPhoneNo());
 	}
 
 	@Test
 // when a validation is missed
 	public void testAdd3() {
 		DepartmentModel department = new DepartmentModel();
-		department.setId(104);
-		department.setName("Divuyansh");
-		department.setHodName("Vishu");
+		department.setId(14);
+		department.setName("Test Department 4");
+		department.setHodName("Unit Test");
 		department.setHodPhoneNo("9536133");
 		department.setSizeOfDepartment(20);
 
@@ -90,9 +90,9 @@ class ManageDepartmentServiceApplicationTests {
 	// when a validation is missed
 	public void testAdd4() {
 		DepartmentModel department = new DepartmentModel();
-		department.setId(105);
+		department.setId(15);
 		department.setName("");
-		department.setHodName("Vishu");
+		department.setHodName("Unit Test");
 		department.setHodPhoneNo("9536133303");
 		department.setSizeOfDepartment(20);
 
@@ -104,8 +104,8 @@ class ManageDepartmentServiceApplicationTests {
 	// when a validation is missed
 	public void testAdd5() {
 		DepartmentModel department = new DepartmentModel();
-		department.setId(106);
-		department.setName("Divuyansh");
+		department.setId(16);
+		department.setName("Test Department 6");
 		department.setHodName("");
 		department.setHodPhoneNo("9536133303");
 		department.setSizeOfDepartment(20);
@@ -118,31 +118,31 @@ class ManageDepartmentServiceApplicationTests {
 	// when a validation is missed
 	public void testAdd6() {
 		DepartmentModel department = new DepartmentModel();
-		department.setId(106);
-		department.setName("Divuyansh");
-		department.setHodName("Vishu");
+		department.setId(16);
+		department.setName("Test Department 6");
+		department.setHodName("Unit Test");
 		department.setHodPhoneNo("9536133303");
 		department.setSizeOfDepartment(20);
 		@SuppressWarnings("unused")
 		Department entity = repository.save(mapper.mapDtoToEntity(department));
-		assertNotNull(repository.findById(106));
+		assertNotNull(repository.findById(16));
 
 	}
 
 	@Test
 	@Order(2)
 	public void testUpdate() {
-		DepartmentModel department = mapper.mapEntityToDto(repository.findById(106));
+		DepartmentModel department = mapper.mapEntityToDto(repository.findById(16));
 		department.setSizeOfDepartment(20);
 		@SuppressWarnings("unused")
 		Department entity = repository.save(mapper.mapDtoToEntity(department));
-		assertNotEquals(19, repository.findById(106).getSizeOfDepartment());
+		assertNotEquals(19, repository.findById(16).getSizeOfDepartment());
 	}
 
 	@Test
 	// when a validation is missed
 	public void testUpdate2() {
-		DepartmentModel department = mapper.mapEntityToDto(repository.findById(102));
+		DepartmentModel department = mapper.mapEntityToDto(repository.findById(12));
 		department.setHodPhoneNo("953613");
 
 		Set<ConstraintViolation<DepartmentModel>> violations = validator.validate(department);
@@ -153,7 +153,7 @@ class ManageDepartmentServiceApplicationTests {
 	@Order(3)
 	public void testView() {
 
-		assertEquals("Harsh", repository.findById(101).getName());
+		assertEquals("Test Department", repository.findById(11).getName());
 	}
 
 	@Test
@@ -166,15 +166,15 @@ class ManageDepartmentServiceApplicationTests {
 	@Test
 	@Order(8)
 	public void testDelete() {
-		repository.deleteById(101);
-		assertThat(repository.existsById(101)).isFalse();
+		repository.deleteById(11);
+		assertThat(repository.existsById(11)).isFalse();
 	}
 
 	@Test
 
 	public void testDelete2() {
-		repository.deleteById(102);
-		assertThat(repository.existsById(101)).isTrue();
+		repository.deleteById(12);
+		assertThat(repository.existsById(11)).isTrue();
 	}
 
 }

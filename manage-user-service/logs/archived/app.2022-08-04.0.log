@@ -1,3 +1,0 @@
-2022-08-04 23:27:28,494 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 24844 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-04 23:27:28,501 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-04 23:27:46,389 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 19.235 seconds (JVM running for 21.483)

@@ -14,6 +14,7 @@ import org.springframework.http.HttpStatus;
 import java.io.File;
 import java.io.FileInputStream;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,6 +27,7 @@ import com.capgemini.retrievereportservice.service.IncomeReportService;
 import com.capgemini.retrievereportservice.service.StaffReportService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/RetrieveReport")
 public class ReportController {
 	Logger logger = LoggerFactory.getLogger(ReportController.class);

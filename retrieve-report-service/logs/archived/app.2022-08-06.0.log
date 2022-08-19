@@ -1,32 +1,10 @@
-2022-08-05 00:09:40,909 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 8736 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 00:09:40,934 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 00:10:01,248 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 21.954 seconds (JVM running for 24.833)
-2022-08-05 00:14:10,027 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 10448 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 00:14:10,035 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 00:14:32,980 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 24.628 seconds (JVM running for 27.804)
-2022-08-05 00:14:43,510 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-1] User HelloTest has been accessed
-2022-08-05 00:18:00,466 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-3] Add user has been accessed
-2022-08-05 00:24:14,886 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 27156 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 00:24:14,890 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 00:24:36,310 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 23.526 seconds (JVM running for 26.567)
-2022-08-05 00:25:07,397 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-1] Add user has been accessed
-2022-08-05 00:27:14,365 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-3] Add user has been accessed
-2022-08-05 00:29:35,430 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-5] Add user has been accessed
-2022-08-05 00:38:03,303 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 26392 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 00:38:03,306 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 00:38:13,504 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 10.952 seconds (JVM running for 12.393)
-2022-08-05 00:45:10,639 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-3] User HelloTest has been accessed
-2022-08-05 00:51:36,556 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 25488 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 00:51:36,559 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 00:51:43,093 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 7.248 seconds (JVM running for 8.283)
-2022-08-05 14:19:24,933 INFO com.capgemini.manageuserservice.ManageUserServiceApplicationTests [main] Starting ManageUserServiceApplicationTests using Java 17.0.2 on Divyansh with PID 14776 (started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 14:19:24,970 INFO com.capgemini.manageuserservice.ManageUserServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 14:19:34,287 INFO com.capgemini.manageuserservice.ManageUserServiceApplicationTests [main] Started ManageUserServiceApplicationTests in 10.162 seconds (JVM running for 12.831)
-2022-08-05 14:19:49,768 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 30120 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 14:19:49,771 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 14:19:55,946 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 6.777 seconds (JVM running for 7.835)
-2022-08-05 15:41:00,310 INFO com.capgemini.manageuserservice.controller.UserController [http-nio-8089-exec-6] User HelloTest has been accessed
-2022-08-05 17:59:39,283 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MANAGE-USER-SERVICE/Divyansh:manage-user-service:8089 - was unable to send heartbeat!
+2022-08-05 14:25:01,370 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplicationTests [main] Starting RetrieveReportServiceApplicationTests using Java 17.0.2 on Divyansh with PID 28920 (started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-05 14:25:01,380 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:25:07,604 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplicationTests [main] Started RetrieveReportServiceApplicationTests in 6.787 seconds (JVM running for 9.176)
+2022-08-05 14:25:19,306 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Starting RetrieveReportServiceApplication using Java 17.0.2 on Divyansh with PID 25160 (D:\Online Hotel Management System\retrieve-report-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-05 14:25:19,309 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:25:22,947 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Started RetrieveReportServiceApplication in 4.24 seconds (JVM running for 5.086)
+2022-08-05 17:59:47,105 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_RETRIEVE-REPORT-SERVICE/Divyansh:retrieve-report-service:8084 - was unable to send heartbeat!
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
@@ -40,7 +18,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-08-05 17:59:56,122 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(225)-127.0.0.1] DiscoveryClient_MANAGE-USER-SERVICE/Divyansh:manage-user-service:8089 - de-registration failedCannot execute request on any known server
+2022-08-05 18:00:12,325 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(218)-127.0.0.1] DiscoveryClient_RETRIEVE-REPORT-SERVICE/Divyansh:retrieve-report-service:8084 - de-registration failedCannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
@@ -111,12 +89,17 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-08-05 18:14:39,224 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 30316 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 18:14:39,231 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 18:14:50,525 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 12.733 seconds (JVM running for 14.919)
-2022-08-05 20:55:43,617 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 10676 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 20:55:43,628 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 20:56:05,070 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 23.847 seconds (JVM running for 35.15)
-2022-08-05 23:38:35,147 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Starting ManageUserServiceApplication using Java 17.0.2 on Divyansh with PID 31892 (D:\Online Hotel Management System\manage-user-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-user-service)
-2022-08-05 23:38:35,150 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-08-05 23:38:42,348 INFO com.capgemini.manageuserservice.ManageUserServiceApplication [main] Started ManageUserServiceApplication in 7.829 seconds (JVM running for 8.93)
+2022-08-05 18:15:38,743 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Starting RetrieveReportServiceApplication using Java 17.0.2 on Divyansh with PID 28348 (D:\Online Hotel Management System\retrieve-report-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-05 18:15:38,960 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 18:15:49,601 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Started RetrieveReportServiceApplication in 12.597 seconds (JVM running for 15.38)
+2022-08-05 20:56:41,698 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Starting RetrieveReportServiceApplication using Java 17.0.2 on Divyansh with PID 7192 (D:\Online Hotel Management System\retrieve-report-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-05 20:56:41,716 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 20:56:52,764 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Started RetrieveReportServiceApplication in 12.811 seconds (JVM running for 16.59)
+2022-08-05 22:53:25,551 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-1] Generate staff report has been accessed
+2022-08-05 22:53:25,551 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-2] Generate staff report has been accessed
+2022-08-05 22:58:17,388 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-4] Generate income report has been accessed
+2022-08-05 23:01:13,078 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Starting RetrieveReportServiceApplication using Java 17.0.2 on Divyansh with PID 15200 (D:\Online Hotel Management System\retrieve-report-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\retrieve-report-service)
+2022-08-05 23:01:13,081 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 23:01:31,457 INFO com.capgemini.retrievereportservice.RetrieveReportServiceApplication [main] Started RetrieveReportServiceApplication in 20.059 seconds (JVM running for 23.751)
+2022-08-05 23:01:48,116 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-1] Generate income report has been accessed
+2022-08-05 23:03:35,908 INFO com.capgemini.retrievereportservice.controller.ReportController [http-nio-8084-exec-3] Generate staff report has been accessed

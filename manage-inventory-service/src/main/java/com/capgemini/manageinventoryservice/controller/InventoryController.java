@@ -9,6 +9,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,6 +25,7 @@ import com.capgemini.manageinventoryservice.model.InventoryModel;
 import com.capgemini.manageinventoryservice.service.InventoryService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/ManageInventory")
 public class InventoryController {
 	Logger logger = LoggerFactory.getLogger(InventoryController.class);
@@ -86,10 +88,10 @@ public class InventoryController {
 		return ResponseEntity.ok(inventoryService.deleteInvent(id));
 	}
 
-	@GetMapping(value = "/viewinventory", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<InventoryModel> findInventByName(@RequestBody InventoryModel inventory) {
+	@GetMapping(value = "/viewinventory/{itemname}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<InventoryModel> findInventByName(@PathVariable String itemname) {
 		logger.info("View inventory by name has been accessed");
-		return ResponseEntity.ok(inventoryService.viewInventByName(inventory.getItemname()));
+		return ResponseEntity.ok(inventoryService.viewInventByName(itemname));
 	}
 
 	@GetMapping(value = "/viewall", produces = MediaType.APPLICATION_JSON_VALUE)

@@ -1,0 +1,6 @@
+2022-08-15 23:31:07,142 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Starting ManageInventoryServiceApplication using Java 17.0.2 on Divyansh with PID 4980 (D:\Online Hotel Management System\manage-inventory-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-inventory-service)
+2022-08-15 23:31:07,151 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-15 23:31:13,833 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Started ManageInventoryServiceApplication in 7.414 seconds (JVM running for 8.648)
+2022-08-15 23:48:09,925 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-1] Add inventory has been accessed
+2022-08-15 23:48:23,943 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-2] Update inventory has been accessed
+2022-08-15 23:48:30,216 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-3] Delete inventory has been accessed

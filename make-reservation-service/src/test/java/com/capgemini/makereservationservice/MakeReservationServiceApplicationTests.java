@@ -49,7 +49,7 @@ class MakeReservationServiceApplicationTests {
 		res.setGuestEmail("harsh@capegemini.com");
 		res.setGuestPhoneNo("9536133303");
 		res.setRoomno(201);
-		res.setStatus("available");
+		res.setStatus("staying");
 		res.setNoOfNight(2);
 		res.setNoOfChildren(2);
 		res.setNoOfAdult(2);
@@ -72,7 +72,7 @@ class MakeReservationServiceApplicationTests {
 		res.setGuestEmail("vishu@capegemini.com");
 		res.setGuestPhoneNo("9536133303");
 		res.setRoomno(201);
-		res.setStatus("available");
+		res.setStatus("staying");
 		res.setNoOfNight(2);
 		res.setNoOfChildren(2);
 		res.setNoOfAdult(2);
@@ -95,7 +95,7 @@ class MakeReservationServiceApplicationTests {
 		res.setGuestEmail("vishu@capegemini.com");
 		res.setGuestPhoneNo("9536");
 		res.setRoomno(201);
-		res.setStatus("available");
+		res.setStatus("staying");
 		res.setNoOfNight(2);
 		res.setNoOfChildren(2);
 		res.setNoOfAdult(2);

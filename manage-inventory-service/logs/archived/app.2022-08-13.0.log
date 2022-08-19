@@ -1,0 +1,25 @@
+2022-08-13 00:00:51,052 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-5] View all inventory has been accessed
+2022-08-13 00:00:51,388 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-4] View all inventory has been accessed
+2022-08-13 00:01:08,907 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-6] View all inventory has been accessed
+2022-08-13 00:01:09,024 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-7] View all inventory has been accessed
+2022-08-13 00:06:13,394 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Starting ManageInventoryServiceApplication using Java 17.0.2 on Divyansh with PID 20600 (D:\Online Hotel Management System\manage-inventory-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-inventory-service)
+2022-08-13 00:06:13,398 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-13 00:06:21,898 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Started ManageInventoryServiceApplication in 9.424 seconds (JVM running for 10.915)
+2022-08-13 00:08:00,975 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Starting ManageInventoryServiceApplication using Java 17.0.2 on Divyansh with PID 18844 (D:\Online Hotel Management System\manage-inventory-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-inventory-service)
+2022-08-13 00:08:00,979 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-13 00:08:07,102 INFO com.capgemini.manageinventoryservice.ManageInventoryServiceApplication [main] Started ManageInventoryServiceApplication in 6.789 seconds (JVM running for 7.816)
+2022-08-13 00:08:48,277 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-1] View inventory by name has been accessed
+2022-08-13 00:09:03,284 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-2] View inventory by name has been accessed
+2022-08-13 00:09:03,300 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-3] View inventory by name has been accessed
+2022-08-13 00:09:12,776 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-4] Update inventory has been accessed
+2022-08-13 00:24:00,523 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-7] View all inventory has been accessed
+2022-08-13 00:24:00,628 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-8] View all inventory has been accessed
+2022-08-13 00:27:39,428 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-10] View all inventory has been accessed
+2022-08-13 00:27:39,455 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-1] View all inventory has been accessed
+2022-08-13 00:27:46,124 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-2] View all inventory has been accessed
+2022-08-13 00:27:46,141 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-3] View all inventory has been accessed
+2022-08-13 00:28:40,943 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-4] View inventory by name has been accessed
+2022-08-13 00:28:40,956 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-5] View inventory by name has been accessed
+2022-08-13 00:28:45,031 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-6] View inventory by name has been accessed
+2022-08-13 00:28:45,053 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-7] View inventory by name has been accessed
+2022-08-13 00:29:48,915 INFO com.capgemini.manageinventoryservice.controller.InventoryController [http-nio-8082-exec-9] View inventory by name has been accessed

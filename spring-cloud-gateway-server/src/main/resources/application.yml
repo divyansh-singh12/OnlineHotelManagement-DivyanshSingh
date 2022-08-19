@@ -9,6 +9,14 @@ spring:
     name: spring-cloud-gateway-server
   cloud:
     gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+              allowedOrigins: "*"
+              allowedMethods: "*"
+              allowedHeaders: "*"
       routes:
       - id: ManageDepartment
         uri: http://localhost:8081/
@@ -48,6 +56,5 @@ spring:
       - id: ManageUser
         uri: http://localhost:8089/
         predicates:
-        - Path=/owner/ManageUser/** , /ManageLogin/**
-        
+        - Path=/owner/ManageUser/** , /ManageLogin/** , /ManageJwt/**
       

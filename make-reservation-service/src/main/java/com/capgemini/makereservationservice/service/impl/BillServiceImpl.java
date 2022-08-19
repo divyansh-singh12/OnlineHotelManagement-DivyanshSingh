@@ -36,7 +36,7 @@ public class BillServiceImpl implements BillService {
 
 	@SuppressWarnings("deprecation")
 	public BillModel issueBill(int roomno) {
-		List<Reservation> reservationlist = reservationRepository.findAllByRoomnoAndStatus(roomno, "staying");
+		List<Reservation> reservationlist = reservationRepository.findAllByRoomnoAndStatus(roomno, "Staying");
 		Date presentDate = new Date();
 		Reservation reservationdata = new Reservation();
 		for (Reservation bookingSearch : reservationlist) {

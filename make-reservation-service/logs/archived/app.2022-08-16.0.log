@@ -1,0 +1,6 @@
+2022-08-16 03:03:11,618 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Starting MakeReservationServiceApplication using Java 17.0.2 on Divyansh with PID 18020 (D:\Online Hotel Management System\make-reservation-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\make-reservation-service)
+2022-08-16 03:03:11,633 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 03:03:24,436 INFO com.capgemini.makereservationservice.MakeReservationServiceApplication [main] Started MakeReservationServiceApplication in 14.363 seconds (JVM running for 16.467)
+2022-08-16 03:13:55,574 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-1] Make Reservation has been accessed
+2022-08-16 03:15:21,314 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-3] View Booking has been accessed
+2022-08-16 03:15:51,739 INFO com.capgemini.makereservationservice.controller.ReservationController [http-nio-8086-exec-4] Issue Bill has been accessed

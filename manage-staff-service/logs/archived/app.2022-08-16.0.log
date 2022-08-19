@@ -1,0 +1,13 @@
+2022-08-16 01:20:38,214 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] Add staff has been accessed
+2022-08-16 01:20:44,320 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] View all staff has been accessed
+2022-08-16 01:20:51,670 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] view staff by code has been accessed
+2022-08-16 01:26:33,875 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] View all staff has been accessed
+2022-08-16 01:26:52,971 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] View all staff has been accessed
+2022-08-16 01:27:02,778 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-9] view staff by code has been accessed
+2022-08-16 01:27:14,622 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-10] Update staff has been accessed
+2022-08-16 01:27:17,992 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] View all staff has been accessed
+2022-08-16 01:27:27,846 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] view staff by code has been accessed
+2022-08-16 01:27:30,788 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] view staff by code has been accessed
+2022-08-16 01:27:37,516 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] Update staff has been accessed
+2022-08-16 01:27:45,431 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] view staff by code has been accessed
+2022-08-16 01:27:47,538 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-6] delete staff has been accessed

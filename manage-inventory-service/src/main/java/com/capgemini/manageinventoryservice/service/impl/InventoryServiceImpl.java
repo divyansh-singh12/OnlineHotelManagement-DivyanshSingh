@@ -53,7 +53,8 @@ public class InventoryServiceImpl implements InventoryService {
 	}
 
 	public InventoryModel viewInventByName(String itemname) {
-		Inventory inventoryEntity = inventoryRepository.findByItemname(itemname);
+		Inventory inventoryEntity;
+		inventoryEntity = inventoryRepository.findByItemname(itemname);
 		return inventoryMapper.mapEntityToDto(inventoryEntity);
 	}
 

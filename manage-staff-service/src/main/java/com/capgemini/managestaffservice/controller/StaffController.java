@@ -9,8 +9,10 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,6 +26,7 @@ import com.capgemini.managestaffservice.model.StaffModel;
 import com.capgemini.managestaffservice.service.StaffService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/ManageStaff")
 public class StaffController {
 
@@ -76,12 +79,12 @@ public class StaffController {
 		return ResponseEntity.ok(model);
 	}
 
-	@DeleteMapping(value = "/deletestaff", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<String> deleteStaff(@RequestBody StaffModel staff) {
+	@DeleteMapping(value = "/deletestaff/{code}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<String> deleteStaff(@PathVariable int code) {
 		CustomMessage message = new CustomMessage();
 
 		StringBuilder str = new StringBuilder();
-		str.append("Staff with staff id as ").append(staff.getCode())
+		str.append("Staff with staff id as ").append(code)
 				.append(" has left the job and the details in the DB are deleted ");
 
 		message.setMessage(str.toString());
@@ -89,13 +92,13 @@ public class StaffController {
 		template.convertAndSend(MqConfig.EXCHANGE, MqConfig.ROUTING_KEY, message);
 
 		logger.info("delete staff has been accessed");
-		return ResponseEntity.ok(staffService.deleteStaffService(staff.getCode()));
+		return ResponseEntity.ok(staffService.deleteStaffService(code));
 	}
 
-	@GetMapping(value = "/viewstaff", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<StaffModel> viewStaffbyId(@RequestBody StaffModel staff) {
+	@GetMapping(value = "/viewstaff/{code}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<StaffModel> viewStaffbyId(@PathVariable int code) {
 		logger.info("view staff by code has been accessed");
-		return ResponseEntity.ok(staffService.viewStaffService(staff.getCode()));
+		return ResponseEntity.ok(staffService.viewStaffService(code));
 	}
 
 	@GetMapping(value = "/viewstaff", produces = MediaType.APPLICATION_JSON_VALUE)

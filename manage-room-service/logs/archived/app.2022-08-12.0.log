@@ -1,0 +1,6 @@
+2022-08-12 08:48:27,909 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 25540 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-12 08:48:27,915 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-12 08:48:34,848 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 7.888 seconds (JVM running for 9.512)
+2022-08-12 09:30:53,046 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-12 10:13:05,123 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-3] Booked room has been accessed
+2022-08-12 10:15:26,019 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-5] View room by id has been accessed

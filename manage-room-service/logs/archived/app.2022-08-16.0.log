@@ -1,0 +1,15 @@
+2022-08-16 01:15:56,592 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 10812 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-16 01:15:56,601 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-16 01:16:02,529 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 6.588 seconds (JVM running for 7.641)
+2022-08-16 01:28:20,484 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-1] Add room has been accessed
+2022-08-16 01:28:37,439 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-2] Add room has been accessed
+2022-08-16 01:28:46,524 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-3] View room by id has been accessed
+2022-08-16 01:28:55,439 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-4] View room by id has been accessed
+2022-08-16 01:29:02,558 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-5] Update room has been accessed
+2022-08-16 01:29:11,544 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-6] View room by id has been accessed
+2022-08-16 01:29:33,862 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-7] set room rates has been accessed
+2022-08-16 01:29:42,220 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-8] View room by id has been accessed
+2022-08-16 01:29:46,804 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-9] Delete room has been accessed
+2022-08-16 03:11:28,327 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-16 03:13:56,001 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-3] Booked room has been accessed
+2022-08-16 03:15:45,991 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-5] View room by id has been accessed

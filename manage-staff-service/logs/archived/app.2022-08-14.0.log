@@ -1,0 +1,216 @@
+2022-08-14 02:35:06,197 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 12180 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-14 02:35:06,206 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 02:35:26,567 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 22.332 seconds (JVM running for 25.504)
+2022-08-14 02:39:13,686 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8083-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: HV000116: The object to be validated must not be null.] with root cause
+java.lang.IllegalArgumentException: HV000116: The object to be validated must not be null.
+	at org.hibernate.validator.internal.util.Contracts.assertNotNull(Contracts.java:44)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:151)
+	at com.capgemini.managestaffservice.service.impl.StaffServiceImpl.validateEntity(StaffServiceImpl.java:118)
+	at com.capgemini.managestaffservice.service.impl.StaffServiceImpl.addStaffService(StaffServiceImpl.java:35)
+	at com.capgemini.managestaffservice.controller.StaffController.addStaff(StaffController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 02:41:05,202 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8083-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: HV000116: The object to be validated must not be null.] with root cause
+java.lang.IllegalArgumentException: HV000116: The object to be validated must not be null.
+	at org.hibernate.validator.internal.util.Contracts.assertNotNull(Contracts.java:44)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:151)
+	at com.capgemini.managestaffservice.service.impl.StaffServiceImpl.validateEntity(StaffServiceImpl.java:118)
+	at com.capgemini.managestaffservice.service.impl.StaffServiceImpl.addStaffService(StaffServiceImpl.java:35)
+	at com.capgemini.managestaffservice.controller.StaffController.addStaff(StaffController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 02:42:32,035 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8083-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: HV000116: The object to be validated must not be null.] with root cause
+java.lang.IllegalArgumentException: HV000116: The object to be validated must not be null.
+	at org.hibernate.validator.internal.util.Contracts.assertNotNull(Contracts.java:44)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:151)
+	at com.capgemini.managestaffservice.service.impl.StaffServiceImpl.validateEntity(StaffServiceImpl.java:118)
+	at com.capgemini.managestaffservice.service.impl.StaffServiceImpl.addStaffService(StaffServiceImpl.java:35)
+	at com.capgemini.managestaffservice.controller.StaffController.addStaff(StaffController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 02:49:41,295 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] Add staff has been accessed
+2022-08-14 02:53:29,655 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 16856 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-14 02:53:29,659 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 02:53:43,313 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 14.688 seconds (JVM running for 16.46)
+2022-08-14 03:14:02,963 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] View all staff has been accessed
+2022-08-14 03:14:03,915 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] View all staff has been accessed
+2022-08-14 03:16:19,645 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 21748 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-14 03:16:19,649 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 03:16:35,056 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 17.991 seconds (JVM running for 20.702)
+2022-08-14 03:16:43,369 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] delete staff has been accessed
+2022-08-14 03:16:46,145 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] View all staff has been accessed
+2022-08-14 03:16:46,812 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] View all staff has been accessed
+2022-08-14 11:40:14,445 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 18244 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-14 11:40:14,464 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 11:40:30,604 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 18.05 seconds (JVM running for 19.896)
+2022-08-14 11:43:39,796 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] View all staff has been accessed
+2022-08-14 11:43:40,984 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] View all staff has been accessed
+2022-08-14 11:44:01,379 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] View all staff has been accessed
+2022-08-14 11:44:01,457 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] View all staff has been accessed
+2022-08-14 11:45:57,617 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] view staff by code has been accessed
+2022-08-14 11:45:57,698 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] view staff by code has been accessed
+2022-08-14 11:58:35,839 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-10] view staff by code has been accessed
+2022-08-14 11:58:35,868 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] view staff by code has been accessed
+2022-08-14 11:58:42,720 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] view staff by code has been accessed
+2022-08-14 11:58:42,770 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] view staff by code has been accessed
+2022-08-14 12:00:23,515 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-6] View all staff has been accessed
+2022-08-14 12:00:23,624 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] View all staff has been accessed
+2022-08-14 12:00:30,717 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] view staff by code has been accessed
+2022-08-14 12:00:30,764 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] view staff by code has been accessed
+2022-08-14 12:00:32,366 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-9] View all staff has been accessed
+2022-08-14 12:00:32,462 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-10] View all staff has been accessed
+2022-08-14 12:00:36,476 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] view staff by code has been accessed
+2022-08-14 12:00:36,572 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] view staff by code has been accessed
+2022-08-14 12:02:48,790 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] view staff by code has been accessed
+2022-08-14 12:02:48,808 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-6] view staff by code has been accessed
+2022-08-14 12:02:54,703 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] view staff by code has been accessed
+2022-08-14 12:02:54,721 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] view staff by code has been accessed
+2022-08-14 12:03:45,798 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] view staff by code has been accessed
+2022-08-14 12:03:53,198 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-9] view staff by code has been accessed
+2022-08-14 12:03:53,218 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-10] view staff by code has been accessed
+2022-08-14 12:04:17,874 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] view staff by code has been accessed
+2022-08-14 12:04:25,290 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] view staff by code has been accessed
+2022-08-14 12:04:25,311 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] view staff by code has been accessed
+2022-08-14 12:05:23,842 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] view staff by code has been accessed
+2022-08-14 12:05:28,554 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-6] view staff by code has been accessed
+2022-08-14 12:05:28,582 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] view staff by code has been accessed
+2022-08-14 12:05:48,871 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] view staff by code has been accessed
+2022-08-14 12:05:54,730 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] view staff by code has been accessed
+2022-08-14 12:05:54,753 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-9] view staff by code has been accessed
+2022-08-14 12:26:19,430 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] View all staff has been accessed
+2022-08-14 12:26:20,034 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] View all staff has been accessed
+2022-08-14 12:26:23,875 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] view staff by code has been accessed
+2022-08-14 12:26:23,903 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] view staff by code has been accessed
+2022-08-14 12:26:44,859 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-6] Update staff has been accessed
+2022-08-14 12:45:58,928 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] view staff by code has been accessed
+2022-08-14 12:45:59,007 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] view staff by code has been accessed
+2022-08-14 12:46:08,492 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-9] view staff by code has been accessed
+2022-08-14 12:46:08,512 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-10] view staff by code has been accessed
+2022-08-14 12:46:15,150 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] view staff by code has been accessed
+2022-08-14 12:46:15,187 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-2] view staff by code has been accessed
+2022-08-14 12:46:24,253 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-3] Update staff has been accessed
+2022-08-14 12:47:07,324 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-4] view staff by code has been accessed
+2022-08-14 12:47:07,343 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-6] view staff by code has been accessed
+2022-08-14 12:47:10,843 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-5] view staff by code has been accessed
+2022-08-14 12:47:10,861 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-7] view staff by code has been accessed
+2022-08-14 12:47:23,338 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-8] Update staff has been accessed

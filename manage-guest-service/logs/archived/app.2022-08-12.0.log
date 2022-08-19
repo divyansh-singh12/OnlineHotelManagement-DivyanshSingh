@@ -1,0 +1,4 @@
+2022-08-12 08:48:15,740 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 18532 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-12 08:48:15,749 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-12 08:48:27,044 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 12.014 seconds (JVM running for 14.587)
+2022-08-12 10:15:17,626 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-1] View guest by email has been accessed

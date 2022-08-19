@@ -1,0 +1,264 @@
+2022-08-14 01:11:12,361 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 5528 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 01:11:12,370 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 01:11:19,839 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 8.161 seconds (JVM running for 9.528)
+2022-08-14 01:26:13,691 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 14228 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 01:26:13,694 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 01:26:19,683 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 6.628 seconds (JVM running for 7.647)
+2022-08-14 01:32:13,318 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 3732 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 01:32:13,322 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 01:32:19,741 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 7.087 seconds (JVM running for 8.091)
+2022-08-14 01:33:06,919 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 01:38:19,498 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 01:40:46,227 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 11984 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 01:40:46,230 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 01:40:53,444 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 7.894 seconds (JVM running for 9.019)
+2022-08-14 01:41:41,432 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 01:44:17,324 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-8] Search room has been accessed
+2022-08-14 01:44:23,110 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-9] Search room has been accessed
+2022-08-14 01:44:23,118 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-10] Search room has been accessed
+2022-08-14 01:45:11,310 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 01:46:23,331 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-4] Search room has been accessed
+2022-08-14 01:46:28,153 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-5] Search room has been accessed
+2022-08-14 01:46:28,155 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-6] Search room has been accessed
+2022-08-14 01:50:18,300 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-9] Search room has been accessed
+2022-08-14 01:50:18,300 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-10] Search room has been accessed
+2022-08-14 01:51:02,322 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 01:51:28,221 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-3] Search room has been accessed
+2022-08-14 01:51:28,234 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-4] Search room has been accessed
+2022-08-14 02:04:15,771 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 7708 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 02:04:15,774 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 02:04:21,627 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 6.507 seconds (JVM running for 7.517)
+2022-08-14 02:04:30,183 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 02:04:58,791 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-2] Search room has been accessed
+2022-08-14 02:04:58,791 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-3] Search room has been accessed
+2022-08-14 02:06:13,977 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-7] Search room has been accessed
+2022-08-14 02:06:13,977 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-6] Search room has been accessed
+2022-08-14 02:08:13,384 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 02:08:13,470 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-10] Search room has been accessed
+2022-08-14 02:08:27,906 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-2] Search room has been accessed
+2022-08-14 02:08:27,906 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-3] Search room has been accessed
+2022-08-14 02:17:41,820 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-9] Search room has been accessed
+2022-08-14 02:17:41,828 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-8] Search room has been accessed
+2022-08-14 02:17:52,547 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-10] Search room has been accessed
+2022-08-14 02:17:52,547 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 02:20:49,540 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-5] Search room has been accessed
+2022-08-14 02:20:49,540 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-4] Search room has been accessed
+2022-08-14 14:17:02,299 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 10124 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 14:17:02,315 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 14:17:08,877 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 8.273 seconds (JVM running for 10.525)
+2022-08-14 14:17:23,434 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-2] Search room has been accessed
+2022-08-14 14:17:23,434 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 14:33:42,408 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-5] Search room has been accessed
+2022-08-14 14:33:42,408 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-6] Search room has been accessed
+2022-08-14 14:35:42,942 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-9] Search room has been accessed
+2022-08-14 14:35:43,049 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-10] Search room has been accessed
+2022-08-14 14:37:00,187 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-3] Booked room has been accessed
+2022-08-14 14:37:00,246 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8087-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null
+	at com.capgemini.manageroomservice.service.impl.RoomServiceImpl.bookedRoom(RoomServiceImpl.java:89)
+	at com.capgemini.manageroomservice.controller.RoomController.bookedRoom(RoomController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 14:37:17,786 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-4] Booked room has been accessed
+2022-08-14 14:37:17,788 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8087-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null
+	at com.capgemini.manageroomservice.service.impl.RoomServiceImpl.bookedRoom(RoomServiceImpl.java:89)
+	at com.capgemini.manageroomservice.controller.RoomController.bookedRoom(RoomController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 14:39:00,837 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-5] Booked room has been accessed
+2022-08-14 14:39:00,840 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8087-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null
+	at com.capgemini.manageroomservice.service.impl.RoomServiceImpl.bookedRoom(RoomServiceImpl.java:89)
+	at com.capgemini.manageroomservice.controller.RoomController.bookedRoom(RoomController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 14:39:19,231 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-6] Booked room has been accessed
+2022-08-14 14:39:19,233 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8087-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.capgemini.manageroomservice.entity.Room.setBookedtill(java.util.Date)" because "roomEntity" is null
+	at com.capgemini.manageroomservice.service.impl.RoomServiceImpl.bookedRoom(RoomServiceImpl.java:89)
+	at com.capgemini.manageroomservice.controller.RoomController.bookedRoom(RoomController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-14 14:51:52,997 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-7] Search room has been accessed
+2022-08-14 14:51:52,998 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-8] Search room has been accessed
+2022-08-14 15:11:05,211 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 15:11:05,211 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-2] Search room has been accessed
+2022-08-14 15:18:51,670 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-6] Search room has been accessed
+2022-08-14 15:18:51,670 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-5] Search room has been accessed
+2022-08-14 15:19:20,218 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-8] Search room has been accessed
+2022-08-14 15:19:20,219 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-7] Search room has been accessed
+2022-08-14 21:26:19,030 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Starting ManageRoomServiceApplication using Java 17.0.2 on Divyansh with PID 10748 (D:\Online Hotel Management System\manage-room-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-room-service)
+2022-08-14 21:26:19,252 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-14 21:26:28,234 INFO com.capgemini.manageroomservice.ManageRoomServiceApplication [main] Started ManageRoomServiceApplication in 10.122 seconds (JVM running for 12.172)
+2022-08-14 21:33:53,534 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-1] Search room has been accessed
+2022-08-14 21:33:53,534 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-2] Search room has been accessed
+2022-08-14 21:36:47,581 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-5] Search room has been accessed
+2022-08-14 21:36:47,590 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-6] Search room has been accessed
+2022-08-14 21:37:44,830 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-7] Search room has been accessed
+2022-08-14 21:37:44,834 INFO com.capgemini.manageroomservice.controller.SearchController [http-nio-8087-exec-9] Search room has been accessed
+2022-08-14 22:04:15,912 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-1] Booked room has been accessed
+2022-08-14 22:11:24,190 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-3] Booked room has been accessed
+2022-08-14 23:16:39,437 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-5] View room by id has been accessed
+2022-08-14 23:16:40,590 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-6] View room by id has been accessed
+2022-08-14 23:18:52,716 INFO com.capgemini.manageroomservice.controller.RoomController [http-nio-8087-exec-9] set room rates has been accessed

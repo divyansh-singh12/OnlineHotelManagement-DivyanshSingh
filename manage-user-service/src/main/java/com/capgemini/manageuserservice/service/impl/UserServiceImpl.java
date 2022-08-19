@@ -51,6 +51,11 @@ public class UserServiceImpl implements UserService {
 		return "can't delete";
 	}
 
+	public UserModel checkUser(String username) {
+		User user = userRepository.findByUsername(username);
+		return userMapper.mapEntityToDto(user);
+	}
+
 	private void validateEntity(UserModel user) {
 		List<String> errorMessage = new ArrayList<>();
 		Validator validator = Validation.buildDefaultValidatorFactory().getValidator();

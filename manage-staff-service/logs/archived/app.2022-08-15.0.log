@@ -1,0 +1,4 @@
+2022-08-15 23:44:36,952 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Starting ManageStaffServiceApplication using Java 17.0.2 on Divyansh with PID 11180 (D:\Online Hotel Management System\manage-staff-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-staff-service)
+2022-08-15 23:44:36,960 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-15 23:44:45,576 INFO com.capgemini.managestaffservice.ManageStaffServiceApplication [main] Started ManageStaffServiceApplication in 9.39 seconds (JVM running for 10.674)
+2022-08-15 23:45:20,808 INFO com.capgemini.managestaffservice.controller.StaffController [http-nio-8083-exec-1] report staff data has been accessed

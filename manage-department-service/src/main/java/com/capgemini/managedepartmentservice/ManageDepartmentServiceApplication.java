@@ -16,6 +16,7 @@ public class ManageDepartmentServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManageDepartmentServiceApplication.class, args);
+		System.out.println(System.getProperty("catalina.base"));
 	}
 
 }

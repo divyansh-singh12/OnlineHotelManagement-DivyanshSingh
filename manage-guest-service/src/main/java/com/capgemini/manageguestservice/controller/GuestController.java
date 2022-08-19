@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,6 +18,7 @@ import com.capgemini.manageguestservice.model.GuestModel;
 import com.capgemini.manageguestservice.service.GuestService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/ManageGuest")
 public class GuestController {
 	Logger logger = LoggerFactory.getLogger(GuestController.class);
@@ -41,10 +43,10 @@ public class GuestController {
 		return ResponseEntity.ok(guestService.updateGuestService(guest));
 	}
 
-	@GetMapping(value = "/viewguest", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<GuestModel> viewGuest(@RequestBody GuestModel guest) {
+	@GetMapping(value = "/viewguest/id/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<GuestModel> viewGuest(@PathVariable int id) {
 		logger.info("view guest by id has been accessed");
-		return ResponseEntity.ok(guestService.viewGuestService(guest.getId()));
+		return ResponseEntity.ok(guestService.viewGuestService(id));
 	}
 
 	@GetMapping(value = "/viewguest/{email}", produces = MediaType.APPLICATION_JSON_VALUE)

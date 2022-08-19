@@ -1,0 +1,132 @@
+2022-08-05 00:39:18,028 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 12520 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 00:39:18,202 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 00:39:26,111 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 8.88 seconds (JVM running for 10.487)
+2022-08-05 14:11:54,852 INFO com.capgemini.manageguestservice.ManageGuestServiceApplicationTests [main] Starting ManageGuestServiceApplicationTests using Java 17.0.2 on Divyansh with PID 8040 (started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 14:11:54,857 INFO com.capgemini.manageguestservice.ManageGuestServiceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:12:03,564 INFO com.capgemini.manageguestservice.ManageGuestServiceApplicationTests [main] Started ManageGuestServiceApplicationTests in 9.251 seconds (JVM running for 11.397)
+2022-08-05 14:12:19,801 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 26532 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 14:12:19,804 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 14:12:25,703 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 6.517 seconds (JVM running for 7.514)
+2022-08-05 15:55:17,772 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 31232 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 15:55:17,789 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 15:55:25,387 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 8.202 seconds (JVM running for 9.302)
+2022-08-05 15:57:38,486 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-1] Add guest has been accessed
+2022-08-05 15:59:26,085 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 8584 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 15:59:26,088 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 15:59:31,781 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 6.337 seconds (JVM running for 7.287)
+2022-08-05 15:59:48,735 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-1] Add guest has been accessed
+2022-08-05 16:03:25,169 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-3] Add guest has been accessed
+2022-08-05 16:05:43,668 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-6] Add guest has been accessed
+2022-08-05 16:08:23,951 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-7] Add guest has been accessed
+2022-08-05 16:08:45,837 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-8] Add guest has been accessed
+2022-08-05 16:14:59,735 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-10] Add guest has been accessed
+2022-08-05 16:15:52,997 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-1] Update guest has been accessed
+2022-08-05 16:16:27,480 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-2] view guest by id has been accessed
+2022-08-05 16:17:36,893 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-4] View guest by email has been accessed
+2022-08-05 17:40:37,878 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-9] View guest by email has been accessed
+2022-08-05 17:59:44,102 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MANAGE-GUEST-SERVICE/Divyansh:manage-guest-service:8088 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:00:15,019 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_MANAGE-GUEST-SERVICE/Divyansh:manage-guest-service:8088 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:00:37,052 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(123)-127.0.0.1] DiscoveryClient_MANAGE-GUEST-SERVICE/Divyansh:manage-guest-service:8088 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:197)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:190)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:213)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1163)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1156)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-05 18:12:37,986 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 17812 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 18:12:37,989 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 18:12:48,488 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 11.912 seconds (JVM running for 13.783)
+2022-08-05 20:53:20,255 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Starting ManageGuestServiceApplication using Java 17.0.2 on Divyansh with PID 10948 (D:\Online Hotel Management System\manage-guest-service\target\classes started by Divyansh Singh in D:\Online Hotel Management System\manage-guest-service)
+2022-08-05 20:53:20,273 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-08-05 20:53:33,310 INFO com.capgemini.manageguestservice.ManageGuestServiceApplication [main] Started ManageGuestServiceApplication in 14.895 seconds (JVM running for 17.194)
+2022-08-05 22:34:46,335 INFO com.capgemini.manageguestservice.controller.GuestController [http-nio-8088-exec-3] View guest by email has been accessed

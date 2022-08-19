@@ -11,5 +11,7 @@ public interface UserService {
 	public UserModel updateUserService(UserModel user);
 
 	public String deleteUserService(String username);
+	
+	public UserModel checkUser(String username);
 
 }
